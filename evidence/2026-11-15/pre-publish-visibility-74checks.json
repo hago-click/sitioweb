@@ -1,0 +1,475 @@
+{
+  "base": "https://hago.click",
+  "checked": 74,
+  "passed": 60,
+  "failed": [
+    {
+      "name": "route /acerca-de HTTP 200",
+      "ok": false,
+      "detail": 404
+    },
+    {
+      "name": "route /contacto HTTP 200",
+      "ok": false,
+      "detail": 404
+    },
+    {
+      "name": "route /precios HTTP 200",
+      "ok": false,
+      "detail": 404
+    },
+    {
+      "name": "route /privacidad HTTP 200",
+      "ok": false,
+      "detail": 404
+    },
+    {
+      "name": "route /terminos HTTP 200",
+      "ok": false,
+      "detail": 404
+    },
+    {
+      "name": "Organization sameAs verified link",
+      "ok": false,
+      "detail": []
+    },
+    {
+      "name": "sitemap contains /acerca-de",
+      "ok": false,
+      "detail": ""
+    },
+    {
+      "name": "sitemap contains /contacto",
+      "ok": false,
+      "detail": ""
+    },
+    {
+      "name": "sitemap contains /precios",
+      "ok": false,
+      "detail": ""
+    },
+    {
+      "name": "sitemap contains /privacidad",
+      "ok": false,
+      "detail": ""
+    },
+    {
+      "name": "sitemap contains /terminos",
+      "ok": false,
+      "detail": ""
+    },
+    {
+      "name": "llms links Markdown",
+      "ok": false,
+      "detail": ""
+    },
+    {
+      "name": "real Markdown response /index.md",
+      "ok": false,
+      "detail": [
+        404,
+        "text/html; charset=utf-8"
+      ]
+    },
+    {
+      "name": "public variable service price",
+      "ok": false,
+      "detail": ""
+    }
+  ],
+  "checks": [
+    {
+      "name": "route / HTTP 200",
+      "ok": true,
+      "detail": 200
+    },
+    {
+      "name": "one H1 /",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "canonical /",
+      "ok": true,
+      "detail": [
+        "https://hago.click/"
+      ]
+    },
+    {
+      "name": "title /",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "meta description /",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "route /piloto HTTP 200",
+      "ok": true,
+      "detail": 200
+    },
+    {
+      "name": "one H1 /piloto",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "canonical /piloto",
+      "ok": true,
+      "detail": [
+        "https://hago.click/piloto"
+      ]
+    },
+    {
+      "name": "title /piloto",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "meta description /piloto",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "route /quiero-aportar HTTP 200",
+      "ok": true,
+      "detail": 200
+    },
+    {
+      "name": "one H1 /quiero-aportar",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "canonical /quiero-aportar",
+      "ok": true,
+      "detail": [
+        "https://hago.click/quiero-aportar"
+      ]
+    },
+    {
+      "name": "title /quiero-aportar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "meta description /quiero-aportar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "route /tengo-una-idea HTTP 200",
+      "ok": true,
+      "detail": 200
+    },
+    {
+      "name": "one H1 /tengo-una-idea",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "canonical /tengo-una-idea",
+      "ok": true,
+      "detail": [
+        "https://hago.click/tengo-una-idea"
+      ]
+    },
+    {
+      "name": "title /tengo-una-idea",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "meta description /tengo-una-idea",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "route /tema/tecnologia-y-software HTTP 200",
+      "ok": true,
+      "detail": 200
+    },
+    {
+      "name": "one H1 /tema/tecnologia-y-software",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "canonical /tema/tecnologia-y-software",
+      "ok": true,
+      "detail": [
+        "https://hago.click/tema/tecnologia-y-software"
+      ]
+    },
+    {
+      "name": "title /tema/tecnologia-y-software",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "meta description /tema/tecnologia-y-software",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "route /tema/diseno-y-productos HTTP 200",
+      "ok": true,
+      "detail": 200
+    },
+    {
+      "name": "one H1 /tema/diseno-y-productos",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "canonical /tema/diseno-y-productos",
+      "ok": true,
+      "detail": [
+        "https://hago.click/tema/diseno-y-productos"
+      ]
+    },
+    {
+      "name": "title /tema/diseno-y-productos",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "meta description /tema/diseno-y-productos",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "route /tema/fabricacion-y-prototipos HTTP 200",
+      "ok": true,
+      "detail": 200
+    },
+    {
+      "name": "one H1 /tema/fabricacion-y-prototipos",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "canonical /tema/fabricacion-y-prototipos",
+      "ok": true,
+      "detail": [
+        "https://hago.click/tema/fabricacion-y-prototipos"
+      ]
+    },
+    {
+      "name": "title /tema/fabricacion-y-prototipos",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "meta description /tema/fabricacion-y-prototipos",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "route /tema/emprendimientos-y-negocios HTTP 200",
+      "ok": true,
+      "detail": 200
+    },
+    {
+      "name": "one H1 /tema/emprendimientos-y-negocios",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "canonical /tema/emprendimientos-y-negocios",
+      "ok": true,
+      "detail": [
+        "https://hago.click/tema/emprendimientos-y-negocios"
+      ]
+    },
+    {
+      "name": "title /tema/emprendimientos-y-negocios",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "meta description /tema/emprendimientos-y-negocios",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "route /tema/proyectos-sociales HTTP 200",
+      "ok": true,
+      "detail": 200
+    },
+    {
+      "name": "one H1 /tema/proyectos-sociales",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "canonical /tema/proyectos-sociales",
+      "ok": true,
+      "detail": [
+        "https://hago.click/tema/proyectos-sociales"
+      ]
+    },
+    {
+      "name": "title /tema/proyectos-sociales",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "meta description /tema/proyectos-sociales",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "route /tema/agricultura-y-sostenibilidad HTTP 200",
+      "ok": true,
+      "detail": 200
+    },
+    {
+      "name": "one H1 /tema/agricultura-y-sostenibilidad",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "canonical /tema/agricultura-y-sostenibilidad",
+      "ok": true,
+      "detail": [
+        "https://hago.click/tema/agricultura-y-sostenibilidad"
+      ]
+    },
+    {
+      "name": "title /tema/agricultura-y-sostenibilidad",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "meta description /tema/agricultura-y-sostenibilidad",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "route /acerca-de HTTP 200",
+      "ok": false,
+      "detail": 404
+    },
+    {
+      "name": "route /contacto HTTP 200",
+      "ok": false,
+      "detail": 404
+    },
+    {
+      "name": "route /precios HTTP 200",
+      "ok": false,
+      "detail": 404
+    },
+    {
+      "name": "route /privacidad HTTP 200",
+      "ok": false,
+      "detail": 404
+    },
+    {
+      "name": "route /terminos HTTP 200",
+      "ok": false,
+      "detail": 404
+    },
+    {
+      "name": "Organization JSON-LD",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Organization URL",
+      "ok": true,
+      "detail": "https://hago.click/"
+    },
+    {
+      "name": "Organization email",
+      "ok": true,
+      "detail": "contacto@hago.click"
+    },
+    {
+      "name": "Organization sameAs verified link",
+      "ok": false,
+      "detail": []
+    },
+    {
+      "name": "FAQ JSON-LD exists",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "FAQ answers in HTML",
+      "ok": true,
+      "detail": 5
+    },
+    {
+      "name": "/robots.txt HTTP 200",
+      "ok": true,
+      "detail": 200
+    },
+    {
+      "name": "/sitemap.xml HTTP 200",
+      "ok": true,
+      "detail": 200
+    },
+    {
+      "name": "sitemap contains /acerca-de",
+      "ok": false,
+      "detail": ""
+    },
+    {
+      "name": "sitemap contains /contacto",
+      "ok": false,
+      "detail": ""
+    },
+    {
+      "name": "sitemap contains /precios",
+      "ok": false,
+      "detail": ""
+    },
+    {
+      "name": "sitemap contains /privacidad",
+      "ok": false,
+      "detail": ""
+    },
+    {
+      "name": "sitemap contains /terminos",
+      "ok": false,
+      "detail": ""
+    },
+    {
+      "name": "/llms.txt HTTP 200",
+      "ok": true,
+      "detail": 200
+    },
+    {
+      "name": "llms links Markdown",
+      "ok": false,
+      "detail": ""
+    },
+    {
+      "name": "real Markdown response /index.md",
+      "ok": false,
+      "detail": [
+        404,
+        "text/html; charset=utf-8"
+      ]
+    },
+    {
+      "name": "public $0 access statement",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "public variable service price",
+      "ok": false,
+      "detail": ""
+    },
+    {
+      "name": "unknown page is 404",
+      "ok": true,
+      "detail": 404
+    }
+  ]
+}
