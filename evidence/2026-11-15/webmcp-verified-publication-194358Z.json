@@ -1,0 +1,54 @@
+{
+  "timestamp": "2026-11-15T19:49:44.895Z",
+  "browser": "153.0.8010.12",
+  "httpStatus": 200,
+  "errors": [],
+  "nativeAvailable": true,
+  "tools": [
+    {
+      "name": "get_collaboration_policy",
+      "description": "Devuelve la política de colaboración de hago.click: no fija precios ni publica tarifas; las colaboraciones se acuerdan directamente entre quienes participan.",
+      "inputSchema": "{\"type\":\"object\",\"properties\":{},\"required\":[]}",
+      "call": {
+        "ok": true,
+        "result": "{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"statement\\\":\\\"hago.click no fija precios ni publica tarifas por las aportaciones de su comunidad. Cada participación puede ser voluntaria, un intercambio o remunerada, según los acuerdos alcanzados directamente entre las personas involucradas. No existe catálogo de servicios comercializados por hago.click; no intermedia pagos en la etapa actual.\\\",\\\"pilotRequestWithoutCost\\\":\\\"La solicitud inicial de acceso al piloto es sin costo. No crea una cuenta ni garantiza admisión o un calendario de acceso.\\\",\\\"noGuarantees\\\":\\\"hago.click no garantiza resultados, ingresos ni clientes. No cobra comisiones ni custodia pagos.\\\",\\\"agreements\\\":\\\"Las colaboraciones se acuerdan directamente entre quienes participan: pueden ser voluntarias, un intercambio o remuneradas.\\\"}\"}]}"
+      }
+    },
+    {
+      "name": "get_faq",
+      "description": "Devuelve las preguntas frecuentes de hago.click con su pregunta y respuesta en español.",
+      "inputSchema": "{\"type\":\"object\",\"properties\":{},\"required\":[]}",
+      "call": {
+        "ok": true,
+        "result": "{\"content\":[{\"type\":\"text\",\"text\":\"[{\\\"question\\\":\\\"¿Qué es hago.click y cómo puedo empezar?\\\",\\\"answer\\\":\\\"hago.click es una comunidad latinoamericana para que personas, emprendedores y negocios conviertan ideas en proyectos, compartan conocimiento y busquen generar ingresos mediante colaboración. No necesitas una idea terminada: empieza por explicar qué quieres lograr y qué ayuda necesitas. Puedes solicitar acceso al piloto en /piloto con tu nombre, correo y rol; la solicitud no crea una cuenta ni garantiza admisión o fecha de acceso.\\\"},{\\\"question\\\":\\\"¿Qué puedo aportar y cómo participan los negocios?\\\",\\\"answer\\\":\\\"Puedes compartir conocimientos, tiempo, habilidades, herramientas, espacios o contactos; no necesitas aportar dinero. Los negocios también pueden ofrecer experiencia, recursos o servicios, procurando condiciones preferenciales para quienes empiezan. Cada participante decide su aportación; construir reputación y relaciones profesionales es una posibilidad, sin garantía de ingresos ni clientes.\\\"},{\\\"question\\\":\\\"¿Cuánto cuesta participar o recibir apoyo?\\\",\\\"answer\\\":\\\"El acceso inicial a la plataforma y la solicitud al piloto son sin costo. hago.click no fija precios ni publica tarifas por las aportaciones de su comunidad: cada participación puede ser voluntaria, un intercambio o remunerada, según los acuerdos alcanzados directamente entre las personas involucradas. Antes de comenzar, los integrantes acuerdan directamente alcance, tiempos y responsabilidades.\\\"},{\\\"question\\\":\\\"¿Dónde funciona y qué puedo usar hoy?\\\",\\\"answer\\\":\\\"La comunidad está orientada "
+      }
+    },
+    {
+      "name": "get_participation_options",
+      "description": "Devuelve las formas de participar en hago.click: tener una idea, aportar y solicitar el piloto.",
+      "inputSchema": "{\"type\":\"object\",\"properties\":{},\"required\":[]}",
+      "call": {
+        "ok": true,
+        "result": "{\"content\":[{\"type\":\"text\",\"text\":\"[{\\\"id\\\":\\\"idea\\\",\\\"label\\\":\\\"Tengo una idea\\\",\\\"description\\\":\\\"Da forma a tu proyecto y pide colaboración.\\\",\\\"url\\\":\\\"https://hago.click/tengo-una-idea\\\"},{\\\"id\\\":\\\"aporte\\\",\\\"label\\\":\\\"Quiero aportar\\\",\\\"description\\\":\\\"Comparte conocimientos, habilidades o recursos.\\\",\\\"url\\\":\\\"https://hago.click/quiero-aportar\\\"},{\\\"id\\\":\\\"piloto\\\",\\\"label\\\":\\\"Solicitar el piloto\\\",\\\"description\\\":\\\"Pide acceso anticipado al piloto de hago.click.\\\",\\\"url\\\":\\\"https://hago.click/piloto\\\"}]\"}]}"
+      }
+    },
+    {
+      "name": "get_pilot_status",
+      "description": "Devuelve el estado actual del piloto de hago.click: qué está disponible, qué no lo está y la nota sobre fechas.",
+      "inputSchema": "{\"type\":\"object\",\"properties\":{},\"required\":[]}",
+      "call": {
+        "ok": true,
+        "result": "{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"stage\\\":\\\"initial\\\",\\\"available\\\":[\\\"Conocer la propuesta y las formas de participar.\\\",\\\"Explorar los seis ámbitos temáticos.\\\",\\\"Consultar las guías de participación.\\\",\\\"Solicitar acceso al piloto.\\\"],\\\"notAvailable\\\":[\\\"Perfiles públicos de participantes.\\\",\\\"Directorio de proyectos aprobados.\\\",\\\"Mensajería entre integrantes.\\\"],\\\"note\\\":\\\"No hay fecha de lanzamiento anunciada para las funciones no disponibles. Solicitar el piloto no garantiza admisión ni un calendario de acceso.\\\"}\"}]}"
+      }
+    },
+    {
+      "name": "get_topics",
+      "description": "Devuelve los seis ámbitos temáticos de colaboración de hago.click con su slug, etiqueta, descripción y URL.",
+      "inputSchema": "{\"type\":\"object\",\"properties\":{},\"required\":[]}",
+      "call": {
+        "ok": true,
+        "result": "{\"content\":[{\"type\":\"text\",\"text\":\"[{\\\"slug\\\":\\\"tecnologia-y-software\\\",\\\"label\\\":\\\"Tecnología y software\\\",\\\"description\\\":\\\"Ideas de tecnología y software en hago.click: qué desarrollar, qué conocimientos y recursos se necesitan y cómo colaborar desde Latinoamérica.\\\",\\\"url\\\":\\\"https://hago.click/tema/tecnologia-y-software\\\"},{\\\"slug\\\":\\\"diseno-y-productos\\\",\\\"label\\\":\\\"Diseño y desarrollo de productos\\\",\\\"description\\\":\\\"Diseño de productos en hago.click: investigación, prototipado y experiencia de usuario. Descubre qué se necesita y cómo colaborar en cada etapa del proyecto.\\\",\\\"url\\\":\\\"https://hago.click/tema/diseno-y-productos\\\"},{\\\"slug\\\":\\\"fabricacion-y-prototipos\\\",\\\"label\\\":\\\"Fabricación y prototipos\\\",\\\"description\\\":\\\"Fabricación y prototipos en hago.click: modelado, materiales, impresión 3D y ensamble. Qué ideas se desarrollan, qué recursos se necesitan y cómo colaborar.\\\",\\\"url\\\":\\\"https://hago.click/tema/fabricacion-y-prototipos\\\"},{\\\"slug\\\":\\\"emprendimientos-y-negocios\\\",\\\"label\\\":\\\"Emprendimientos y pequeños negocios\\\",\\\"description\\\":\\\"Emprendimientos y pequeños negocios en hago.click: modelo, finanzas, marketing y operaciones. Qué ideas se desarrollan, qué se necesita y cómo colaborar.\\\",\\\"url\\\":\\\"https://hago.click/tema/emprendimientos-y-negocios\\\"},{\\\"slug\\\":\\\"proyectos-sociales\\\",\\\"label\\\":\\\"Proyectos sociales y comunitarios\\\",\\\"description\\\":\\\"Proyectos sociales y comunitarios en hago.click: educación, salud, ambiente y comunidad. Qué ideas se desarrollan, qué se necesita y cómo colaborar.\\\",\\\"url\\\":\\\"https://hago.click/tema/proyectos-sociales\\\"},{\\\"s"
+      }
+    }
+  ]
+}
