@@ -16,7 +16,7 @@ const output=process.env.HAGO_REPORT||'webmcp-native.json';
    const row={name:t.name,description:t.description,readOnly:t.annotations?.readOnlyHint,inputSchema:t.inputSchema,call:{ok:false}};
    if(/^get_(topics|participation_options|collaboration_policy|pilot_status|faq)$/.test(t.name)){
     try {
-     const major=Number(navigator.userAgent.match(/Chrome\\/(\\d+)/)?.[1]||0);
+     const major=Number((navigator.userAgent.split("Chrome/")[1]||"").split(".")[0]||0);
      const args=major && major<155 ? JSON.stringify({}) : {};
      const result=await m.executeTool(t, args, {signal:new AbortController().signal});
      row.call={ok:true,result:typeof result==='string'?result.slice(0,1600):JSON.stringify(result).slice(0,1600)};
