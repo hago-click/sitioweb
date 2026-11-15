@@ -1,0 +1,415 @@
+{
+  "base": "https://hago.click",
+  "checked": 51,
+  "passed": 43,
+  "failed": [
+    {
+      "check": "trust route: /acuerdos",
+      "pass": false,
+      "detail": {
+        "status": 404,
+        "url": "https://hago.click/acuerdos"
+      },
+      "group": "trust"
+    },
+    {
+      "check": "trust alias: /about",
+      "pass": false,
+      "detail": {
+        "status": 404,
+        "finalUrl": "https://hago.click/about"
+      },
+      "group": "trust"
+    },
+    {
+      "check": "direct homepage link: /about",
+      "pass": false,
+      "detail": 0,
+      "group": "trust"
+    },
+    {
+      "check": "trust alias: /terms",
+      "pass": false,
+      "detail": {
+        "status": 404,
+        "finalUrl": "https://hago.click/terms"
+      },
+      "group": "trust"
+    },
+    {
+      "check": "direct homepage link: /terms",
+      "pass": false,
+      "detail": 0,
+      "group": "trust"
+    },
+    {
+      "check": "no monetary pricing table in old URL",
+      "pass": false,
+      "detail": null,
+      "group": "policy"
+    },
+    {
+      "check": "homepage Content Negotiation",
+      "pass": false,
+      "detail": {
+        "status": 200,
+        "mime": "text/html; charset=utf-8"
+      },
+      "group": "agents"
+    },
+    {
+      "check": "MCP card served as JSON",
+      "pass": false,
+      "detail": {
+        "status": 404,
+        "mime": "text/html; charset=utf-8"
+      },
+      "group": "mcp"
+    }
+  ],
+  "checks": [
+    {
+      "check": "old route HTTP 200: /",
+      "pass": true,
+      "detail": 200,
+      "group": "regression"
+    },
+    {
+      "check": "old route unique H1: /",
+      "pass": true,
+      "detail": 1,
+      "group": "regression"
+    },
+    {
+      "check": "old route canonical: /",
+      "pass": true,
+      "detail": null,
+      "group": "regression"
+    },
+    {
+      "check": "old route HTTP 200: /piloto",
+      "pass": true,
+      "detail": 200,
+      "group": "regression"
+    },
+    {
+      "check": "old route unique H1: /piloto",
+      "pass": true,
+      "detail": 1,
+      "group": "regression"
+    },
+    {
+      "check": "old route canonical: /piloto",
+      "pass": true,
+      "detail": null,
+      "group": "regression"
+    },
+    {
+      "check": "old route HTTP 200: /quiero-aportar",
+      "pass": true,
+      "detail": 200,
+      "group": "regression"
+    },
+    {
+      "check": "old route unique H1: /quiero-aportar",
+      "pass": true,
+      "detail": 1,
+      "group": "regression"
+    },
+    {
+      "check": "old route canonical: /quiero-aportar",
+      "pass": true,
+      "detail": null,
+      "group": "regression"
+    },
+    {
+      "check": "old route HTTP 200: /tengo-una-idea",
+      "pass": true,
+      "detail": 200,
+      "group": "regression"
+    },
+    {
+      "check": "old route unique H1: /tengo-una-idea",
+      "pass": true,
+      "detail": 1,
+      "group": "regression"
+    },
+    {
+      "check": "old route canonical: /tengo-una-idea",
+      "pass": true,
+      "detail": null,
+      "group": "regression"
+    },
+    {
+      "check": "old route HTTP 200: /tema/tecnologia-y-software",
+      "pass": true,
+      "detail": 200,
+      "group": "regression"
+    },
+    {
+      "check": "old route unique H1: /tema/tecnologia-y-software",
+      "pass": true,
+      "detail": 1,
+      "group": "regression"
+    },
+    {
+      "check": "old route canonical: /tema/tecnologia-y-software",
+      "pass": true,
+      "detail": null,
+      "group": "regression"
+    },
+    {
+      "check": "old route HTTP 200: /tema/diseno-y-productos",
+      "pass": true,
+      "detail": 200,
+      "group": "regression"
+    },
+    {
+      "check": "old route unique H1: /tema/diseno-y-productos",
+      "pass": true,
+      "detail": 1,
+      "group": "regression"
+    },
+    {
+      "check": "old route canonical: /tema/diseno-y-productos",
+      "pass": true,
+      "detail": null,
+      "group": "regression"
+    },
+    {
+      "check": "old route HTTP 200: /tema/fabricacion-y-prototipos",
+      "pass": true,
+      "detail": 200,
+      "group": "regression"
+    },
+    {
+      "check": "old route unique H1: /tema/fabricacion-y-prototipos",
+      "pass": true,
+      "detail": 1,
+      "group": "regression"
+    },
+    {
+      "check": "old route canonical: /tema/fabricacion-y-prototipos",
+      "pass": true,
+      "detail": null,
+      "group": "regression"
+    },
+    {
+      "check": "old route HTTP 200: /tema/emprendimientos-y-negocios",
+      "pass": true,
+      "detail": 200,
+      "group": "regression"
+    },
+    {
+      "check": "old route unique H1: /tema/emprendimientos-y-negocios",
+      "pass": true,
+      "detail": 1,
+      "group": "regression"
+    },
+    {
+      "check": "old route canonical: /tema/emprendimientos-y-negocios",
+      "pass": true,
+      "detail": null,
+      "group": "regression"
+    },
+    {
+      "check": "old route HTTP 200: /tema/proyectos-sociales",
+      "pass": true,
+      "detail": 200,
+      "group": "regression"
+    },
+    {
+      "check": "old route unique H1: /tema/proyectos-sociales",
+      "pass": true,
+      "detail": 1,
+      "group": "regression"
+    },
+    {
+      "check": "old route canonical: /tema/proyectos-sociales",
+      "pass": true,
+      "detail": null,
+      "group": "regression"
+    },
+    {
+      "check": "old route HTTP 200: /tema/agricultura-y-sostenibilidad",
+      "pass": true,
+      "detail": 200,
+      "group": "regression"
+    },
+    {
+      "check": "old route unique H1: /tema/agricultura-y-sostenibilidad",
+      "pass": true,
+      "detail": 1,
+      "group": "regression"
+    },
+    {
+      "check": "old route canonical: /tema/agricultura-y-sostenibilidad",
+      "pass": true,
+      "detail": null,
+      "group": "regression"
+    },
+    {
+      "check": "trust route: /acerca-de",
+      "pass": true,
+      "detail": {
+        "status": 200,
+        "url": "https://hago.click/acerca-de"
+      },
+      "group": "trust"
+    },
+    {
+      "check": "trust route: /contacto",
+      "pass": true,
+      "detail": {
+        "status": 200,
+        "url": "https://hago.click/contacto"
+      },
+      "group": "trust"
+    },
+    {
+      "check": "trust route: /privacidad",
+      "pass": true,
+      "detail": {
+        "status": 200,
+        "url": "https://hago.click/privacidad"
+      },
+      "group": "trust"
+    },
+    {
+      "check": "trust route: /terminos",
+      "pass": true,
+      "detail": {
+        "status": 200,
+        "url": "https://hago.click/terminos"
+      },
+      "group": "trust"
+    },
+    {
+      "check": "trust route: /acuerdos",
+      "pass": false,
+      "detail": {
+        "status": 404,
+        "url": "https://hago.click/acuerdos"
+      },
+      "group": "trust"
+    },
+    {
+      "check": "trust alias: /about",
+      "pass": false,
+      "detail": {
+        "status": 404,
+        "finalUrl": "https://hago.click/about"
+      },
+      "group": "trust"
+    },
+    {
+      "check": "direct homepage link: /about",
+      "pass": false,
+      "detail": 0,
+      "group": "trust"
+    },
+    {
+      "check": "trust alias: /terms",
+      "pass": false,
+      "detail": {
+        "status": 404,
+        "finalUrl": "https://hago.click/terms"
+      },
+      "group": "trust"
+    },
+    {
+      "check": "direct homepage link: /terms",
+      "pass": false,
+      "detail": 0,
+      "group": "trust"
+    },
+    {
+      "check": "legacy pricing route not broken",
+      "pass": true,
+      "detail": {
+        "status": 200,
+        "finalUrl": "https://hago.click/precios"
+      },
+      "group": "policy"
+    },
+    {
+      "check": "no monetary pricing table in old URL",
+      "pass": false,
+      "detail": null,
+      "group": "policy"
+    },
+    {
+      "check": "homepage Content Negotiation",
+      "pass": false,
+      "detail": {
+        "status": 200,
+        "mime": "text/html; charset=utf-8"
+      },
+      "group": "agents"
+    },
+    {
+      "check": "published Markdown resource",
+      "pass": true,
+      "detail": {
+        "status": 200,
+        "mime": "text/markdown; charset=utf-8"
+      },
+      "group": "agents"
+    },
+    {
+      "check": "foundational /robots.txt",
+      "pass": true,
+      "detail": 200,
+      "group": "regression"
+    },
+    {
+      "check": "foundational /sitemap.xml",
+      "pass": true,
+      "detail": 200,
+      "group": "regression"
+    },
+    {
+      "check": "foundational /llms.txt",
+      "pass": true,
+      "detail": 200,
+      "group": "regression"
+    },
+    {
+      "check": "real HTTP 404",
+      "pass": true,
+      "detail": 404,
+      "group": "regression"
+    },
+    {
+      "check": "Organization schema exists",
+      "pass": true,
+      "detail": [
+        "WebSite",
+        "Organization",
+        "FAQPage"
+      ],
+      "group": "regression"
+    },
+    {
+      "check": "no fictitious Offer schema",
+      "pass": true,
+      "detail": null,
+      "group": "policy"
+    },
+    {
+      "check": "five FAQ are present",
+      "pass": true,
+      "detail": null,
+      "group": "regression"
+    },
+    {
+      "check": "MCP card served as JSON",
+      "pass": false,
+      "detail": {
+        "status": 404,
+        "mime": "text/html; charset=utf-8"
+      },
+      "group": "mcp"
+    }
+  ]
+}
