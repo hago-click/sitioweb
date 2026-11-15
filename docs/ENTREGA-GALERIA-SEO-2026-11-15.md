@@ -1,17 +1,19 @@
 # Hago.Click — entrega verificada del hackathon
 
-Corte: publicación del 15 de noviembre de 2026, **16:07:34 UTC / 11:07:34 Cancún**. Sitio: https://hago.click/ · Repositorio: https://github.com/hago-click/sitioweb.
+Corte: publicación del 15 de noviembre de 2026, **17:34:26 UTC / 12:34:26 Cancún**. Sitio: https://hago.click/ · Repositorio: https://github.com/hago-click/sitioweb.
 
 Este informe describe evidencia y límites; no asigna puntuaciones del jurado. Los informes anteriores conservan valor histórico y no representan todos los cambios actuales.
 
 ## Estado de la versión publicada
 
-- Portada editorial con fondo SVG animado, pausa y movimiento reducido; fotografía WebP y fuentes optimizadas.
+- Portada opción 06 publicada: equipo creando una lámpara, paleta azul profundo y ámbar; AVIF responsivo con alternativa WebP, precarga, fondo SVG animado, pausa y movimiento reducido.
 - Tres ejemplos hipotéticos con iluminación al cursor y desplegables de primer paso.
-- Video ilustrativo de repostería de 5,04 s, con controles y poster WebP de 26.614 bytes. MP4 original en https://ocre.mx/assets/hago-click/click.mp4 ; preload=none es una indicación al navegador, no garantía universal de cero solicitudes.
+- Video ilustrativo de repostería de 5,04 s, con controles y poster WebP de 26.614 bytes. MP4 de 2.010.709 bytes alojado en Hostinger: https://darkorchid-donkey-829051.hostingersite.com/hago-click-media/dulce-comienzo-web.mp4 . Reproducción automática silenciada al entrar en pantalla, loop y pausa fuera de pantalla; respeta movimiento reducido. preload=none es una indicación al navegador, no garantía universal de cero solicitudes.
 - Explicador interactivo con tres puntos de partida: idea, habilidad y herramientas. No simula miembros ni ofertas reales.
 - Galería con seis escenas editoriales originales creadas con IA, doce WebP responsivos (480/960 px), ejemplos desplegables y enlaces de participación. Fondo ambiental global con pausa y preferencia de movimiento reducido.
 - FAQ editorial cálida condensada en cinco grupos, todos inicialmente cerrados; conservan las diez consultas prioritarias y coinciden con el HTML inicial y FAQPage.
+- Rediseño coherente de La comunidad, Quiero aportar, Tengo una idea, Temas, las seis páginas temáticas y Formas de participar: paneles azules, acentos ámbar, iconos SVG, pasos concretos y acciones reales.
+- Imágenes y video referencian Hostinger; cero referencias a ocre.mx en el HTML final. Las fuentes todavía utilizan fonts.gstatic.com; no se afirma ausencia total de terceros. No se garantiza elegibilidad sin revisar las reglas completas.
 - Diez rutas públicas; sitemap, robots y llms accesibles; 404 real. No hubo cambios DNS, migraciones ni modificaciones de base de datos.
 
 ## Los seis entregables del Prompt Pack
@@ -21,8 +23,8 @@ Este informe describe evidencia y límites; no asigna puntuaciones del jurado. L
 |1. Mapa de preguntas|Diez preguntas y respuestas publicadas, reproducidas abajo|Mapa editorial; no se presenta como diez entrevistas reales a clientes|
 |2. Construir página|Landing y nueve rutas adicionales publicadas|Perfiles, directorio y mensajería no están implementados|
 |3. SEO, AEO y datos estructurados|Matriz de veinte criterios, metadatos y JSON-LD comprobados|Portada validada en Schema.org: 0 errores y 0 advertencias; las demás rutas tienen comprobación local|
-|4. Prueba de respuestas|Prueba editorial usando solo HTML público: ocho completas y dos parciales|No equivale a ejecución independiente de Hostinger Agent; formulario no probado de extremo a extremo|
-|5. Auditoría y corrección|Checker inicial 61; último observado 76. Correcciones y pruebas registradas|76 corresponde al escaneo 11:00:36 Cancún, posterior a la galería y anterior al ajuste de metadatos secundarios; no mide menciones ni ranking|
+|4. Prueba de respuestas|Prueba editorial usando solo HTML público: ocho completas y dos parciales|Hostinger Agent solicitó activar créditos y no ejecutó la prueba independiente. No se compraron créditos. Formulario no probado de extremo a extremo|
+|5. Auditoría y corrección|Checker inicial 61; último observado 76. Correcciones y pruebas registradas|76 corresponde al escaneo 12:26:13 Cancún, después del rediseño y primera corrección de calidad; no mide menciones ni ranking|
 |6. Roadmap de 90 días|Plan con responsables, esfuerzo y KPI al final|Son tareas futuras, no implementaciones|
 
 ## Matriz de veinte criterios
@@ -35,9 +37,9 @@ Este informe describe evidencia y límites; no asigna puntuaciones del jurado. L
 |SEO4|Tema y contenido|Verificado|Tema de colaboración en título, H1 e introducción; Más de 300 palabras de contenido útil en HTML inicial; se condensaron las FAQ sin retirar los datos esenciales.|
 |SEO5|Indexable|Verificado técnicamente|HTTPS, lang es, viewport y canonical del dominio presentes; no meta noindex observado. Indexación efectiva en Google no comprobada.|
 |SEO6|robots.txt y sitemap.xml|Verificado|Ambos 200; sitemap con diez rutas públicas que responden 200; fecha de modificación de portada coherente con cambios del 15 de noviembre.|
-|SEO7|Imágenes|Verificado con mejora pendiente|Once imágenes con alt en inicio; srcset y lazy loading inferiores. Hero WebP: variantes verificadas entre 13.916 y 62.488 bytes. Nuevas escenas: doce WebP, entre 20.276 y 85.240 bytes cada uno; todas responden 200 y las seis cargan en navegador. Se pueden optimizar otras fotografías.|
-|SEO8|Velocidad|Parcial|Lighthouse móvil más reciente: rendimiento 93, LCP 2,928 s, CLS 0, TBT 0. Cumple rendimiento ≥80 y CLS <0,1; falta LCP <2,5 s.|
-|SEO9|Móvil|Verificado en producción en el alcance probado|Viewport solicitado de 390 px; contenido efectivo de 375 px y scrollWidth 375, sin overflow. Galería en una columna y seis imágenes cargadas. Captura pública y Lighthouse móvil conservados.|
+|SEO7|Imágenes|Verificado con mejora pendiente|Once imágenes con alt en inicio; srcset y lazy loading inferiores. Hero nuevo: AVIF de 21.331–95.368 bytes y WebP de 28.998–119.064 bytes, variantes 480/768/1200 px verificadas con MIME y respuesta 206. Nuevas escenas: doce WebP, entre 20.276 y 85.240 bytes cada uno; todas responden 200 y las seis cargan en navegador. Se pueden optimizar otras fotografías.|
+|SEO8|Velocidad|Parcial|Lighthouse móvil más reciente: rendimiento 92, LCP 3,017 s, CLS 0, TBT 0. Cumple rendimiento ≥80 y CLS <0,1; falta LCP <2,5 s.|
+|SEO9|Móvil|Verificado por Lighthouse en la última versión; interacción manual pendiente de repetir|Lighthouse móvil emula Moto G Power y muestra portada adaptable. El control de viewport manual no se aplicó en esta ronda; no se presenta una captura de escritorio como móvil. Las capturas manuales anteriores corresponden a la versión previa.|
 |SEO10|Enlaces y URLs|Verificado en el alcance probado|Diez rutas 200, 404 real y URLs legibles. Probados destinos de tres escenarios, accesos a FAQ y navegación temática; 27 destinos internos comprobados sin enlaces ni anclas rotas.|
 |AEO1|Respuesta directa arriba|Verificado|Primer párrafo define comunidad, destinatarios, aportaciones y acceso inicial sin costo. Texto en HTML inicial, antes de la foto en móvil.|
 |AEO2|Encabezados como preguntas|Verificado|H2 interrogativos con respuestas introductorias; se reforzaron Cómo funciona y FAQ. Cinco preguntas H3 agrupadas en FAQ.|
@@ -76,12 +78,16 @@ Fuente única: HTML público, con cinco grupos FAQ que conservan diez consultas 
 |05:52, después de fuentes y WebP|94|100 / 100 / 100|3,006 s|0|
 |06:20, FAQ y demostración publicadas|91|100 / 100 / 100|3,078 s|0|
 |11:00, galería, fondo global y FAQ compactas|93|100 / 100 / 100|2,928 s|0|
+|12:17, rediseño completo antes de corrección|91|96 / 100 / 100|3,172 s|0|
+|12:26, portada corregida|92|100 / 100 / 100|3,017 s|0|
 
-Último informe: https://pagespeed.web.dev/analysis/https-hago-click/jt30yx25v4?form_factor=mobile . FCP 1,360 s; TBT 0; Speed Index 4,201 s; navegación con agentes 3/3. Son mediciones de laboratorio, sin CrUX. No se atribuye causalidad aislada a la diferencia entre ejecuciones. LCP <2,5 s sigue pendiente.
+Último informe de portada: https://pagespeed.web.dev/analysis/https-hago-click/xd81nh9f94?form_factor=mobile . FCP 1,379 s; TBT 0; Speed Index 4,161 s; navegación con agentes 3/3. Son mediciones de laboratorio, sin CrUX. No se atribuye causalidad aislada a la diferencia entre ejecuciones. LCP <2,5 s sigue pendiente.
 
-Escritorio de ese mismo informe: **100 rendimiento, 100 accesibilidad, 100 buenas prácticas y 100 SEO**; FCP 0,301 s, LCP 0,642 s, TBT 0, CLS 0, Speed Index 0,621 s. Estas mediciones anteceden únicamente al ajuste de metadatos secundarios.
+Escritorio de ese mismo informe: **100 rendimiento, 100 accesibilidad, 100 buenas prácticas y 100 SEO**; FCP 0,354 s, LCP 0,610 s, TBT 0, CLS 0, Speed Index 0,528 s. Medición de las 12:26:05; el posterior ajuste afecta solo el contraste de tarjetas interiores.
 
-AI Visibility Checker, escaneo 11:00:36: **76/100, grado B**, frente a 61 inicial. Desglose: rastreo 20/20, descubrimiento 16/16, legibilidad 18/18, semántica 10/14, comercial 4/12, contenido para agentes 8/10 e interacción 0/10. Fuente: https://www.hostinger.com/ai-visibility-checker?domain=hago.click . Su lectura de rastreo completo no elimina los bloqueos explícitos de entrenamiento observados en robots.txt.
+AI Visibility Checker, escaneo 12:26:13: **76/100, grado B**, frente a 61 inicial. Desglose: rastreo 20/20, descubrimiento 16/16, legibilidad 18/18, semántica 10/14, comercial 4/12, contenido para agentes 8/10 e interacción 0/10. Fuente: https://www.hostinger.com/ai-visibility-checker?domain=hago.click . Su lectura de rastreo completo no elimina los bloqueos explícitos de entrenamiento observados en robots.txt.
+
+Interior /tengo-una-idea, comprobación posterior al ajuste de contraste (12:34:54): **98 rendimiento, 100 accesibilidad, 100 buenas prácticas, 100 SEO**, LCP/FCP 0,908 s, TBT 0, CLS 0. Fuente: https://pagespeed.web.dev/analysis/https-hago-click-tengo-una-idea/55a6ppnuru?form_factor=mobile . Antes del ajuste: 100/96/100/100. La variación de rendimiento entre ejecuciones no prueba causalidad.
 
 ## Cinco correcciones de alto impacto ejecutadas
 
@@ -97,7 +103,7 @@ Tres escenarios y destinos comprobados; controles de pausa; cinco acordeones con
 
 La primera publicación del nuevo FAQ fue rechazada automáticamente por un aviso de hidratación observado durante edición en caliente. Se movieron los estilos de ambos componentes a index.css; dos cargas limpias, una recarga con interacciones y la versión pública registraron cero errores de consola capturados. No se desactivaron validaciones ni se añadió suppressHydrationWarning para ocultarlo.
 
-GitHub tiene escritura comprobada y fuentes antes/después en horizons-changes/, incluidos formas-v1 y meta-1106. Son respaldos parciales de archivos modificados, no un repositorio completo compilable ni una restauración integral ensayada. La exportación completa de Horizons sigue pendiente. No se asumió importación automática GitHub→Horizons.
+GitHub tiene escritura comprobada y fuentes antes/después en horizons-changes/, incluidos formas-v1, meta-1106, hostinger-media, consistency-v1 y quality-pass-v1 (última corrección CSS: c1d1de373c90432a180a1e65502e4048778c6e6d). Son respaldos parciales de archivos modificados, no un repositorio completo compilable ni una restauración integral ensayada. La exportación completa de Horizons sigue pendiente. No se asumió importación automática GitHub→Horizons.
 
 ## Referencias de diseño
 
@@ -138,3 +144,11 @@ Condiciones de piloto por país, calendario de funcionalidades, prácticas reale
 - Código antes/después: horizons-changes/formas-v1 y horizons-changes/meta-1106 en GitHub.
 - Validador oficial de Schema.org, portada: tres elementos, 0 errores y 0 advertencias; registro en schema-home.txt.
 - El paquete es evidencia documental y HTTP; no incluye copia integral de Horizons ni datos de usuarios.
+
+## Evidencia adicional del cierre visual
+
+- Publicación Hostinger confirmada el 15/11/2026 a las 17:34:26 UTC, sin acciones en progreso.
+- Capturas: evidence/comunidad-renovada-publicada.jpg y evidence/portada-06-publicada.jpg.
+- Auditoría final de diez rutas: evidence/final-design-publicado/.
+- Recursos Hostinger verificados: evidence/hostinger-media-check.json y evidence/hero-night-hostinger.json.
+- Prueba independiente de diez preguntas: bloqueada por créditos de Hostinger Agent; revisión editorial 8 completas/2 parciales conservada.
