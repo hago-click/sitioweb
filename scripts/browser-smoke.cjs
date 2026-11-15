@@ -43,7 +43,7 @@ async function main() {
       check('images have alt '+width, state.imagesMissingAlt===0, state.imagesMissingAlt);
       check('video muted loop '+width, state.video.length===0||state.video.every(v=>v.muted&&v.loop),state.video);
       if(width===390){
-        const menu=page.getByRole('button',{name:/abrir menú/i});
+        const menu=page.locator('button.menu-toggle');
         if(await menu.count()){
           await menu.first().click();
           check('mobile menu expands', (await menu.first().getAttribute('aria-expanded'))==='true');
