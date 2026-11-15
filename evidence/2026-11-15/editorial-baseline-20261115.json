@@ -1,0 +1,329 @@
+{
+  "base": "https://hago.click",
+  "pages": [
+    {
+      "url": "https://hago.click/",
+      "status": 200,
+      "sha256": "dfe858406e602c6187a7f7aab6b76528f8383691a802d5d8353db2df49d0e60f",
+      "title": "hago.click — Comunidad para colaborar en Latinoamérica",
+      "description": "Comunidad latinoamericana para colaborar en proyectos: conecta ideas, conocimientos, habilidades, herramientas y recursos. Juntos las hacemos realidad.",
+      "canonical": [
+        "https://hago.click/"
+      ],
+      "h1": 1,
+      "lang": "es",
+      "viewport": "width=device-width, initial-scale=1",
+      "robots": null,
+      "og": {
+        "og:title": "hago.click — Comunidad para colaborar en Latinoamérica",
+        "og:description": "Comunidad latinoamericana para colaborar en proyectos: conecta ideas, conocimientos, habilidades, herramientas y recursos. Juntos las hacemos realidad.",
+        "og:type": "website",
+        "og:url": "https://hago.click/",
+        "og:image": "https://images.hostinger.com/bba8bde2-1477-49df-aa06-3f71ce33c6ea/bba88a90-5130-4b10-a1db-0fe04f50a804.png"
+      },
+      "images": 10,
+      "missing_alt": 0,
+      "faq_count": 5,
+      "faq_in_html": true,
+      "schema_types": [
+        "WebSite",
+        "Organization",
+        "FAQPage"
+      ]
+    },
+    {
+      "url": "https://hago.click/tengo-una-idea",
+      "status": 200,
+      "sha256": "0b7e0da7a8a0594673f1c9bdab98ad43fde5349f99159ff5ad38c80591396989",
+      "title": "Tengo una idea — Cómo presentar tu proyecto · hago.click",
+      "description": "Da forma a tu idea y pide colaboración en hago.click: cómo explicar tu proyecto, qué preparar y cómo dar un primer paso concreto con quien puede aportar.",
+      "canonical": [
+        "https://hago.click/tengo-una-idea"
+      ],
+      "h1": 1,
+      "lang": "es",
+      "viewport": "width=device-width, initial-scale=1",
+      "robots": null,
+      "og": {
+        "og:title": "Tengo una idea — Cómo presentar tu proyecto · hago.click",
+        "og:description": "Da forma a tu idea y pide colaboración en hago.click: cómo explicar tu proyecto, qué preparar y cómo dar un primer paso concreto con quien puede aportar.",
+        "og:type": "website",
+        "og:url": "https://hago.click/tengo-una-idea",
+        "og:image": "https://images.hostinger.com/bba8bde2-1477-49df-aa06-3f71ce33c6ea/bba88a90-5130-4b10-a1db-0fe04f50a804.png"
+      },
+      "images": 0,
+      "missing_alt": 0,
+      "faq_count": 0,
+      "faq_in_html": true,
+      "schema_types": [
+        "WebPage",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "https://hago.click/quiero-aportar",
+      "status": 200,
+      "sha256": "afe8d513f8437759a8cb85c1c7b0d58caa062c9900c50244b025d3f8984594fb",
+      "title": "Quiero aportar — Colabora con lo que sabes · hago.click",
+      "description": "Comparte conocimientos, habilidades o recursos en hago.click. Descubre formas de colaborar, prepara tu aportación y conoce cómo pueden participar los negocios.",
+      "canonical": [
+        "https://hago.click/quiero-aportar"
+      ],
+      "h1": 1,
+      "lang": "es",
+      "viewport": "width=device-width, initial-scale=1",
+      "robots": null,
+      "og": {
+        "og:title": "Quiero aportar — Colabora con lo que sabes · hago.click",
+        "og:description": "Comparte conocimientos, habilidades o recursos en hago.click. Descubre formas de colaborar, prepara tu aportación y conoce cómo pueden participar los negocios.",
+        "og:type": "website",
+        "og:url": "https://hago.click/quiero-aportar",
+        "og:image": "https://images.hostinger.com/bba8bde2-1477-49df-aa06-3f71ce33c6ea/bba88a90-5130-4b10-a1db-0fe04f50a804.png"
+      },
+      "images": 6,
+      "missing_alt": 0,
+      "faq_count": 0,
+      "faq_in_html": true,
+      "schema_types": [
+        "WebPage",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "https://hago.click/piloto",
+      "status": 200,
+      "sha256": "9b505a02453707f724b061dc9b80eca3deb983783e9e3d94f4ae5aa72e9e34d4",
+      "title": "Solicitar acceso al piloto de la comunidad · hago.click",
+      "description": "Pide acceso anticipado al piloto de hago.click. La comunidad está en etapa inicial: comparte tu interés y te avisamos cuando abramos más funcionalidades.",
+      "canonical": [
+        "https://hago.click/piloto"
+      ],
+      "h1": 1,
+      "lang": "es",
+      "viewport": "width=device-width, initial-scale=1",
+      "robots": null,
+      "og": {
+        "og:title": "Solicitar acceso al piloto de la comunidad · hago.click",
+        "og:description": "Pide acceso anticipado al piloto de hago.click. La comunidad está en etapa inicial: comparte tu interés y te avisamos cuando abramos más funcionalidades.",
+        "og:type": "website",
+        "og:url": "https://hago.click/piloto",
+        "og:image": "https://images.hostinger.com/bba8bde2-1477-49df-aa06-3f71ce33c6ea/bba88a90-5130-4b10-a1db-0fe04f50a804.png"
+      },
+      "images": 0,
+      "missing_alt": 0,
+      "faq_count": 0,
+      "faq_in_html": true,
+      "schema_types": [
+        "WebPage",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "https://hago.click/tema/tecnologia-y-software",
+      "status": 200,
+      "sha256": "0b6b64e6e4341c6c1dcf8dd67b7eb0e03b30d61930e052da3d573cf0e84f960d",
+      "title": "Tecnología y software — Formas de colaborar · hago.click",
+      "description": "Ideas de tecnología y software en hago.click: qué desarrollar, qué conocimientos y recursos se necesitan y cómo colaborar desde Latinoamérica.",
+      "canonical": [
+        "https://hago.click/tema/tecnologia-y-software"
+      ],
+      "h1": 1,
+      "lang": "es",
+      "viewport": "width=device-width, initial-scale=1",
+      "robots": null,
+      "og": {
+        "og:title": "Tecnología y software — Formas de colaborar · hago.click",
+        "og:description": "Ideas de tecnología y software en hago.click: qué desarrollar, qué conocimientos y recursos se necesitan y cómo colaborar desde Latinoamérica.",
+        "og:type": "website",
+        "og:url": "https://hago.click/tema/tecnologia-y-software",
+        "og:image": "https://images.hostinger.com/bba8bde2-1477-49df-aa06-3f71ce33c6ea/bba88a90-5130-4b10-a1db-0fe04f50a804.png"
+      },
+      "images": 0,
+      "missing_alt": 0,
+      "faq_count": 3,
+      "faq_in_html": true,
+      "schema_types": [
+        "WebPage",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "url": "https://hago.click/tema/diseno-y-productos",
+      "status": 200,
+      "sha256": "eb5822ead6be2050daa4803cd99baef17669f01342837a329dc876ef2ae8bd79",
+      "title": "Diseño de productos — Formas de colaborar · hago.click",
+      "description": "Diseño de productos en hago.click: investigación, prototipado y experiencia de usuario. Descubre qué se necesita y cómo colaborar en cada etapa del proyecto.",
+      "canonical": [
+        "https://hago.click/tema/diseno-y-productos"
+      ],
+      "h1": 1,
+      "lang": "es",
+      "viewport": "width=device-width, initial-scale=1",
+      "robots": null,
+      "og": {
+        "og:title": "Diseño de productos — Formas de colaborar · hago.click",
+        "og:description": "Diseño de productos en hago.click: investigación, prototipado y experiencia de usuario. Descubre qué se necesita y cómo colaborar en cada etapa del proyecto.",
+        "og:type": "website",
+        "og:url": "https://hago.click/tema/diseno-y-productos",
+        "og:image": "https://images.hostinger.com/bba8bde2-1477-49df-aa06-3f71ce33c6ea/bba88a90-5130-4b10-a1db-0fe04f50a804.png"
+      },
+      "images": 0,
+      "missing_alt": 0,
+      "faq_count": 3,
+      "faq_in_html": true,
+      "schema_types": [
+        "WebPage",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "url": "https://hago.click/tema/fabricacion-y-prototipos",
+      "status": 200,
+      "sha256": "3c5e3754929398789565a94d4f4c1d6b5e5178cb3f02eb1d53889d7647ac2cd1",
+      "title": "Fabricación y prototipos — Formas de colaborar · hago.click",
+      "description": "Fabricación y prototipos en hago.click: modelado, materiales, impresión 3D y ensamble. Qué ideas se desarrollan, qué recursos se necesitan y cómo colaborar.",
+      "canonical": [
+        "https://hago.click/tema/fabricacion-y-prototipos"
+      ],
+      "h1": 1,
+      "lang": "es",
+      "viewport": "width=device-width, initial-scale=1",
+      "robots": null,
+      "og": {
+        "og:title": "Fabricación y prototipos — Formas de colaborar · hago.click",
+        "og:description": "Fabricación y prototipos en hago.click: modelado, materiales, impresión 3D y ensamble. Qué ideas se desarrollan, qué recursos se necesitan y cómo colaborar.",
+        "og:type": "website",
+        "og:url": "https://hago.click/tema/fabricacion-y-prototipos",
+        "og:image": "https://images.hostinger.com/bba8bde2-1477-49df-aa06-3f71ce33c6ea/bba88a90-5130-4b10-a1db-0fe04f50a804.png"
+      },
+      "images": 0,
+      "missing_alt": 0,
+      "faq_count": 3,
+      "faq_in_html": true,
+      "schema_types": [
+        "WebPage",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "url": "https://hago.click/tema/emprendimientos-y-negocios",
+      "status": 200,
+      "sha256": "f571b9dd147ab9401863bfec26e477882017d45719e315f5914024b837e170d9",
+      "title": "Emprendimientos — Formas de colaborar · hago.click",
+      "description": "Emprendimientos y pequeños negocios en hago.click: modelo, finanzas, marketing y operaciones. Qué ideas se desarrollan, qué se necesita y cómo colaborar.",
+      "canonical": [
+        "https://hago.click/tema/emprendimientos-y-negocios"
+      ],
+      "h1": 1,
+      "lang": "es",
+      "viewport": "width=device-width, initial-scale=1",
+      "robots": null,
+      "og": {
+        "og:title": "Emprendimientos — Formas de colaborar · hago.click",
+        "og:description": "Emprendimientos y pequeños negocios en hago.click: modelo, finanzas, marketing y operaciones. Qué ideas se desarrollan, qué se necesita y cómo colaborar.",
+        "og:type": "website",
+        "og:url": "https://hago.click/tema/emprendimientos-y-negocios",
+        "og:image": "https://images.hostinger.com/bba8bde2-1477-49df-aa06-3f71ce33c6ea/bba88a90-5130-4b10-a1db-0fe04f50a804.png"
+      },
+      "images": 0,
+      "missing_alt": 0,
+      "faq_count": 3,
+      "faq_in_html": true,
+      "schema_types": [
+        "WebPage",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "url": "https://hago.click/tema/proyectos-sociales",
+      "status": 200,
+      "sha256": "fe000a265bd3b710b5ee3711271ed4c95ce3e6e328a2e7a794819c8af952b6b7",
+      "title": "Proyectos comunitarios — Formas de colaborar · hago.click",
+      "description": "Proyectos sociales y comunitarios en hago.click: educación, salud, ambiente y comunidad. Qué ideas se desarrollan, qué se necesita y cómo colaborar.",
+      "canonical": [
+        "https://hago.click/tema/proyectos-sociales"
+      ],
+      "h1": 1,
+      "lang": "es",
+      "viewport": "width=device-width, initial-scale=1",
+      "robots": null,
+      "og": {
+        "og:title": "Proyectos comunitarios — Formas de colaborar · hago.click",
+        "og:description": "Proyectos sociales y comunitarios en hago.click: educación, salud, ambiente y comunidad. Qué ideas se desarrollan, qué se necesita y cómo colaborar.",
+        "og:type": "website",
+        "og:url": "https://hago.click/tema/proyectos-sociales",
+        "og:image": "https://images.hostinger.com/bba8bde2-1477-49df-aa06-3f71ce33c6ea/bba88a90-5130-4b10-a1db-0fe04f50a804.png"
+      },
+      "images": 0,
+      "missing_alt": 0,
+      "faq_count": 3,
+      "faq_in_html": true,
+      "schema_types": [
+        "WebPage",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "url": "https://hago.click/tema/agricultura-y-sostenibilidad",
+      "status": 200,
+      "sha256": "73f155059acd91c30d2ebbec17b91053d2a6229eda031b9e183a2afc535f8124",
+      "title": "Agricultura sostenible — Formas de colaborar · hago.click",
+      "description": "Agricultura y sostenibilidad en hago.click: cultivo, riego, energía y residuos. Qué ideas se desarrollan, qué recursos se necesitan y cómo colaborar.",
+      "canonical": [
+        "https://hago.click/tema/agricultura-y-sostenibilidad"
+      ],
+      "h1": 1,
+      "lang": "es",
+      "viewport": "width=device-width, initial-scale=1",
+      "robots": null,
+      "og": {
+        "og:title": "Agricultura sostenible — Formas de colaborar · hago.click",
+        "og:description": "Agricultura y sostenibilidad en hago.click: cultivo, riego, energía y residuos. Qué ideas se desarrollan, qué recursos se necesitan y cómo colaborar.",
+        "og:type": "website",
+        "og:url": "https://hago.click/tema/agricultura-y-sostenibilidad",
+        "og:image": "https://images.hostinger.com/bba8bde2-1477-49df-aa06-3f71ce33c6ea/bba88a90-5130-4b10-a1db-0fe04f50a804.png"
+      },
+      "images": 0,
+      "missing_alt": 0,
+      "faq_count": 3,
+      "faq_in_html": true,
+      "schema_types": [
+        "WebPage",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    }
+  ],
+  "resources": {
+    "/": {
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 125459
+    },
+    "/sitemap.xml": {
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "bytes": 821
+    },
+    "/robots.txt": {
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 1473
+    },
+    "/llms.txt": {
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 1340
+    },
+    "/auditoria-404-hago-20261115": {
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 15534
+    }
+  }
+}
