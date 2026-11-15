@@ -96,8 +96,9 @@ check("Markdown negotiation on homepage",status==200 and "text/markdown" in nego
 status,headers,body=get("/index.md",accept="text/markdown")
 md_good=status==200 and "html" not in headers.get("Content-Type","").lower() and "<!doctype html" not in body.lower()
 check("real Markdown response /index.md",md_good,(status,headers.get("Content-Type")))
-check("public $0 access statement",bool(re.search(r"(sin costo|\$0)",pages.get("/precios",{}).get("body",""),re.I)))
-check("public variable service price",bool(re.search(r"(variable|acordad[oa]|pactad[oa])",pages.get("/precios",{}).get("body",""),re.I)))
+agreements=pages.get("/acuerdos",{}).get("body","")
+check("collaboration policy appears on page",bool(agreements and re.search(r"(aportaciones|colaboraciones)",agreements,re.I)))
+check("community rates are not shown",bool(agreements and not re.search(r"(?:\\$|USD|MXN|EUR)\\s*\\d+(?:[,.]\\d+)*",agreements,re.I)))
 status,card_headers,card_body=get("/.well-known/mcp/server-card.json")
 card_valid=False
 if status==200 and "json" in card_headers.get("Content-Type","").lower():
