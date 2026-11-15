@@ -15,7 +15,7 @@ export function Faq() {
         <div className="hc-faq-intro">
           <span className="hc-faq-kicker">5 RESPUESTAS PARA DAR EL PRIMER PASO</span>
           <h2 id="faq-heading">¿Qué necesito<br/><em>para empezar?</em></h2>
-          <p>Empieza con lo que sabes o con una idea que quieras explorar. Aquí están las respuestas esenciales antes de dar el primer paso.</p>
+          <p>Lo esencial para empezar, colaborar y cuidar tus acuerdos.</p>
           <nav className="hc-faq-shortcuts" aria-label="Temas de las preguntas frecuentes"><a href="#faq-1" onClick={() => openQuestion('faq-1')}>Empezar</a><a href="#faq-3" onClick={() => openQuestion('faq-3')}>Costos</a><a href="#faq-5" onClick={() => openQuestion('faq-5')}>Confianza</a></nav>
           <div className="hc-faq-contact">
             
