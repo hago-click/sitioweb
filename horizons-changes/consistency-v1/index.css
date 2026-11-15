@@ -777,3 +777,4 @@ main>.projects-section{background:radial-gradient(ellipse at 90% 0,#344e76 0,tra
 .hc-faq-intro h2,.hc-faq-contact strong,.hc-faq-item{color:#263b58}.hc-faq-intro>p{color:#536079}.hc-faq-kicker{color:#425674}.hc-faq-kicker:before{background:#bd8649}.hc-faq-shortcuts a,.hc-faq-contact a{color:#385b89}.hc-faq-item[open]{background:#263b58;border-color:#263b58;color:#f7f0e5}.hc-faq-item[open] .hc-faq-number,.hc-faq-item[open] .hc-faq-plus{color:#edbd78}
 .hc-form-card .gallery-copy h3{color:#293f5b}.hc-form-card .gallery-copy>p{color:#526078}.hc-form-icon{color:#3c5e88}.hc-form-example>summary,.hc-form-example>a{color:#3b5982}.hc-form-example>p{color:#526078}
 @media(max-width:619px){.hero.hc-night-hero .hero-feature img{aspect-ratio:4/3;object-position:center}.hero.hc-night-hero .hero-feature figcaption>span{font-size:9px}}
+.hero.hc-night-hero .hc-photo-sticker{color:#233854;background:#efbd78}
