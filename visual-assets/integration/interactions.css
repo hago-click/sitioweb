@@ -1,0 +1,26 @@
+/* Original hago.click motion layer. Content remains visible without JS. */
+.click-connections { display:block; width:min(100%,720px); height:auto; margin:0 auto 40px; }
+.click-connections .route { fill:none;stroke:#427b68;stroke-width:2;stroke-dasharray:5 9; }
+.click-connections .pulse { fill:none;stroke:#93dfbd;stroke-width:4;stroke-linecap:round;stroke-dasharray:20 300;animation:click-flow 4.8s linear 1 forwards; }
+.click-connections .label { font:14px system-ui,sans-serif;fill:#1a2823; }
+@keyframes click-flow { to { stroke-dashoffset:-320; } }
+.project-media { overflow:hidden; }
+.project-media img { transition:transform 400ms cubic-bezier(.2,.65,.3,1); }
+.project-copy h3 { text-wrap:balance; }
+.project-meta-label { letter-spacing:.09em; }
+@media (hover:hover) and (pointer:fine) {
+  .project-item:hover .project-media img { transform:scale(1.025); }
+  .steps-list li { transition:background-color 200ms ease; }
+  .steps-list li:hover { background-color:rgba(151,232,190,.08); }
+}
+.project-item:focus-within .project-media img { transform:scale(1.025); }
+@media (max-width:600px) {
+  .click-connections { margin-bottom:28px; }
+  .click-connections .label { font-size:18px; }
+}
+@media (prefers-reduced-motion:reduce) {
+  html { scroll-behavior:auto; }
+  .click-connections .pulse { animation:none;stroke-dasharray:none;opacity:.4; }
+  .project-media img,.steps-list li { transition:none; }
+  .project-item:hover .project-media img,.project-item:focus-within .project-media img { transform:none; }
+}
