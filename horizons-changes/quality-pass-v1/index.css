@@ -782,3 +782,4 @@ main>.projects-section{background:radial-gradient(ellipse at 90% 0,#344e76 0,tra
 /* Lighthouse contrast correction on the amber result card. */
 .demo-card.demo-result .demo-card-label,.demo-card.demo-result p{color:#263b58}
 @media(max-width:619px){.hero.hc-night-hero .hc-net-nodes circle,.hero.hc-night-hero .hc-orb{animation:none!important}.hero.hc-night-hero .hero-feature img{box-shadow:none}}
+.next-card.next-card-mint p,.next-card.next-card-mint>span{color:#263b58}
