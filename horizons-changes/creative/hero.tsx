@@ -46,12 +46,12 @@ export function Hero() {
       <figure className="hero-feature">
         <div className="hc-photo-sticker" aria-hidden="true"><span>Una idea tuya.</span><strong>Más posibilidades juntos ↗</strong></div>
         <img
-          src="https://images.hostinger.com/bba8bde2-1477-49df-aa06-3f71ce33c6ea/a5c5ef84-c6bd-410b-ad13-30923dbcf4fb.png"
-          srcSet="https://images.hostinger.com/bba8bde2-1477-49df-aa06-3f71ce33c6ea/a5c5ef84-c6bd-410b-ad13-30923dbcf4fb.png?width=375 375w, https://images.hostinger.com/bba8bde2-1477-49df-aa06-3f71ce33c6ea/a5c5ef84-c6bd-410b-ad13-30923dbcf4fb.png?width=768 768w, https://images.hostinger.com/bba8bde2-1477-49df-aa06-3f71ce33c6ea/a5c5ef84-c6bd-410b-ad13-30923dbcf4fb.png?width=1024 1024w, https://images.hostinger.com/bba8bde2-1477-49df-aa06-3f71ce33c6ea/a5c5ef84-c6bd-410b-ad13-30923dbcf4fb.png 1280w"
+          src="https://images.hostinger.com/bba8bde2-1477-49df-aa06-3f71ce33c6ea/a5c5ef84-c6bd-410b-ad13-30923dbcf4fb.png?format=webp"
+          srcSet="https://images.hostinger.com/bba8bde2-1477-49df-aa06-3f71ce33c6ea/a5c5ef84-c6bd-410b-ad13-30923dbcf4fb.png?width=375&format=webp 375w, https://images.hostinger.com/bba8bde2-1477-49df-aa06-3f71ce33c6ea/a5c5ef84-c6bd-410b-ad13-30923dbcf4fb.png?width=768&format=webp 768w, https://images.hostinger.com/bba8bde2-1477-49df-aa06-3f71ce33c6ea/a5c5ef84-c6bd-410b-ad13-30923dbcf4fb.png?width=1024&format=webp 1024w, https://images.hostinger.com/bba8bde2-1477-49df-aa06-3f71ce33c6ea/a5c5ef84-c6bd-410b-ad13-30923dbcf4fb.png?format=webp 1280w"
           sizes="(min-width: 1600px) 750px, (min-width: 1100px) 43vw, (min-width: 760px) 89vw, 88vw"
           alt="Tres personas latinoamericanas colaborando alrededor de un banco de trabajo iluminado, revisando bocetos y un prototipo."
           width={1280}
-          height={853}
+          height={832}
           loading="eager"
           fetchPriority="high"
           decoding="async"
