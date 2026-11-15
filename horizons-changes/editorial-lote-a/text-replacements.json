@@ -1,0 +1,94 @@
+{
+  "project": "hago.click",
+  "batch": "editorial-lote-a",
+  "status": "prepared-on-GitHub-not-applied-to-Horizons",
+  "purpose": "Cinco cambios de contenido de la portada, con controles de coincidencia exacta",
+  "warning": "Los archivos de referencia del repositorio son instantáneas históricas: en el editor actual de Horizons verificar cada fragmento y sustituir solo el texto, no reemplazar archivos completos.",
+  "instructions": [
+    "Abrir Código en Hostinger Horizons (no usar chat IA)",
+    "Localizar las líneas según el campo before o editorSearch y editar solo si coincide exactamente una vez",
+    "No reemplazar archivos completos: preservar la identidad verde/coral, imágenes, video, rutas, controles, schema, FAQ y WebMCP de la publicación actual",
+    "Guardar y probar en vista previa; publicar solo después de las pruebas"
+  ],
+  "groups": [
+    {
+      "group": "01 — Hero y propósito",
+      "snapshotReference": "horizons-changes/consistency-v1/hero.tsx",
+      "editorSearch": "<h1 id=\"hero-heading\">Las ideas hacen <span className=\"click-word\">cli",
+      "edits": [
+        {
+          "before": "<h1 id=\"hero-heading\">Las ideas hacen <span className=\"click-word\">click<span className=\"click-dot\">.</span><svg viewBox=\"0 0 400 20\" aria-hidden=\"true\"><path d=\"M4 14 C100 1 280 2 392 10\"/></svg></span><span className=\"hero-sub\">Colabora para hacerlas realidad.</span></h1>",
+          "after": "<h1 id=\"hero-heading\">Lo que quieres hacer puede empezar<span className=\"hero-sub\">con una conversación.</span></h1>"
+        },
+        {
+          "before": "<p>hago.click es una comunidad latinoamericana para crecer y generar ingresos colaborando. Personas, emprendedores y negocios comparten conocimientos, habilidades y recursos para desarrollar proyectos y ofrecer servicios a quienes van empezando. El acceso inicial es sin costo; cada integrante acuerda las condiciones de sus aportaciones.</p>",
+          "after": "<p>hago.click es una comunidad latinoamericana en formación para personas, emprendedores y negocios que quieren desarrollar proyectos mediante la colaboración. Puedes empezar con una propuesta, una pregunta o algo útil que sabes hacer. Aquí buscamos reunir conocimientos, experiencia, herramientas y tiempo para ayudar a dar un primer paso concreto.</p>"
+        },
+        {
+          "before": "<strong>Tres habilidades distintas. Una idea que toma forma.</strong>",
+          "after": "<strong>De un boceto a una primera prueba.</strong>"
+        }
+      ]
+    },
+    {
+      "group": "02 — Ejemplos de proyectos",
+      "snapshotReference": "horizons-changes/creative/projects.tsx",
+      "editorSearch": "<h2 id=\"projects-heading\">\r\n            Ideas que podrían\r\n           ",
+      "edits": [
+        {
+          "before": "<h2 id=\"projects-heading\">\r\n            Ideas que podrían\r\n            <br />\r\n            <em>hacerse realidad.</em>\r\n          </h2>",
+          "after": "<h2 id=\"projects-heading\">Cada proyecto tiene<br /><em>una pregunta por resolver.</em></h2>"
+        },
+        {
+          "before": "<p>\r\n            Son ejemplos ilustrativos de cómo se vería una colaboración en hago.click. No son proyectos\r\n            registrados ni representan actividad real de la comunidad.\r\n          </p>",
+          "after": "<p>Tres situaciones imaginadas para explorar qué podría hacer falta antes de una primera prueba. No son proyectos registrados ni representan actividad real de la comunidad.</p>"
+        }
+      ]
+    },
+    {
+      "group": "03 — Comunidad y reciprocidad",
+      "snapshotReference": "horizons-changes/consistency-v1/value.tsx",
+      "editorSearch": "<h2 id=\"value-heading\">No tienes que<br/>hacerlo <em>todo.</em><br/>Ni",
+      "edits": [
+        {
+          "before": "<h2 id=\"value-heading\">No tienes que<br/>hacerlo <em>todo.</em><br/>Ni hacerlo <em>solo.</em></h2>",
+          "after": "<h2 id=\"value-heading\">En un tema puedes<br/><em>enseñar.</em><br/>En otro, <em>aprender.</em></h2>"
+        },
+        {
+          "before": "<p>Una idea puede necesitar distintas habilidades. Lo que alguien dibuja, otra persona puede ayudar a fabricar y un negocio puede orientar para presentar mejor.</p><p>hago.click busca reunir esas posibilidades alrededor de algo concreto: que un proyecto avance mediante acuerdos claros y aportaciones útiles.</p>",
+          "after": "<p>Quien sabe trabajar la madera quizá necesite fotografías para mostrar su producto. Alguien que diseña puede querer aprender a calcular materiales. Un negocio con experiencia también puede descubrir nuevas formas de colaborar.</p><p>En hago.click buscamos que esas diferencias sean oportunidades para enseñar, aprender y avanzar, con aportaciones concretas y acuerdos claros.</p>"
+        }
+      ]
+    },
+    {
+      "group": "04 — Cómo funciona",
+      "snapshotReference": "horizons-changes/interactive/how-it-works.tsx",
+      "editorSearch": "<h2 id=\"how-heading\">¿Cómo se convierte una idea<br/><em>en un primer ",
+      "edits": [
+        {
+          "before": "<h2 id=\"how-heading\">¿Cómo se convierte una idea<br/><em>en un primer paso?</em></h2>",
+          "after": "<h2 id=\"how-heading\">Una necesidad concreta<br/><em>hace más fácil empezar.</em></h2>"
+        },
+        {
+          "before": "<p>Compartiendo qué quieres lograr, conectando conocimientos y recursos y acordando una tarea concreta. Prueba estos tres ejemplos de colaboración.</p>",
+          "after": "<p>Para colaborar, ayuda explicar qué tienes, qué te falta y qué te gustaría resolver primero. Explora tres situaciones ilustrativas y observa cómo cambia la aportación según el punto de partida.</p>"
+        }
+      ]
+    },
+    {
+      "group": "05 — Acuerdos de colaboración",
+      "snapshotReference": "horizons-changes/interactive/how-it-works.tsx",
+      "editorSearch": "<summary>Los tres pasos para colaborar bien <span aria-hidden=\"true\">+",
+      "edits": [
+        {
+          "before": "<summary>Los tres pasos para colaborar bien <span aria-hidden=\"true\">+</span></summary>",
+          "after": "<summary>Los acuerdos claros también son una forma de cuidar el trabajo <span aria-hidden=\"true\">+</span></summary>"
+        },
+        {
+          "before": "<p>Colaborar bien también es acordar: respeto, transparencia y expectativas claras desde el inicio.</p>",
+          "after": "<p>Explica el objetivo, acota la primera tarea y define responsabilidades, plazos, materiales y condiciones antes de comenzar. Colaborar no significa que todo deba ser gratuito.</p>"
+        }
+      ]
+    }
+  ]
+}
