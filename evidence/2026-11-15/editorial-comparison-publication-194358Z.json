@@ -1,0 +1,896 @@
+{
+  "datetime": "2026-11-15T19:46:06.723638+00:00",
+  "base": "https://hago.click",
+  "routes": [
+    {
+      "route": "/",
+      "status": 200,
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Las ideas hacen click . Colabora para hacerlas realidad."
+        },
+        {
+          "level": "h2",
+          "text": "Ideas que podrían hacerse realidad."
+        },
+        {
+          "level": "h3",
+          "text": "Taburete con plástico reciclado"
+        },
+        {
+          "level": "h3",
+          "text": "Sensor comunitario de calidad del aire"
+        },
+        {
+          "level": "h3",
+          "text": "Estudio de cerámica y textiles"
+        },
+        {
+          "level": "h2",
+          "text": "Ya sabes hacer algo. Imagina lo que podemos hacer juntos."
+        },
+        {
+          "level": "h2",
+          "text": "Historias que podrían hacer click"
+        },
+        {
+          "level": "h3",
+          "text": "De una idea a un primer prototipo"
+        },
+        {
+          "level": "h3",
+          "text": "Un taller podría aportar recursos"
+        },
+        {
+          "level": "h3",
+          "text": "Una propuesta podría mejorar con opinión"
+        },
+        {
+          "level": "h2",
+          "text": "Personas y negocios que podrían aportar"
+        },
+        {
+          "level": "h3",
+          "text": "Impresión 3D para prototipos"
+        },
+        {
+          "level": "h3",
+          "text": "Mentoría de marketing"
+        },
+        {
+          "level": "h3",
+          "text": "Espacio de taller compartido"
+        },
+        {
+          "level": "h3",
+          "text": "Diseño de identidad básica"
+        },
+        {
+          "level": "h2",
+          "text": "No tienes que hacerlo todo. Ni hacerlo solo."
+        },
+        {
+          "level": "h3",
+          "text": "Distintas habilidades. Una idea que toma forma."
+        },
+        {
+          "level": "h2",
+          "text": "¿Cómo se convierte una idea en un primer paso?"
+        },
+        {
+          "level": "h3",
+          "text": "Quiero vender mis brownies"
+        },
+        {
+          "level": "h3",
+          "text": "Alguien que sabe de costos y diseño"
+        },
+        {
+          "level": "h3",
+          "text": "Una primera oferta para probar"
+        },
+        {
+          "level": "h3",
+          "text": "Ponle palabras."
+        },
+        {
+          "level": "h3",
+          "text": "Encuentra el click."
+        },
+        {
+          "level": "h3",
+          "text": "Hazlo en equipo."
+        },
+        {
+          "level": "h2",
+          "text": "Algo que sabes. Algo que tienes. Mucho por hacer."
+        },
+        {
+          "level": "h3",
+          "text": "Compartir conocimientos"
+        },
+        {
+          "level": "h3",
+          "text": "Ayudar con diseño o tecnología"
+        },
+        {
+          "level": "h3",
+          "text": "Prestar herramientas o equipos"
+        },
+        {
+          "level": "h3",
+          "text": "Aportar experiencia profesional"
+        },
+        {
+          "level": "h3",
+          "text": "Conectar personas y negocios"
+        },
+        {
+          "level": "h3",
+          "text": "Participar en el desarrollo de proyectos"
+        },
+        {
+          "level": "h2",
+          "text": "¿Dónde puede crecer lo que tienes en mente?"
+        },
+        {
+          "level": "h3",
+          "text": "Tecnología y software"
+        },
+        {
+          "level": "h3",
+          "text": "Diseño y desarrollo de productos"
+        },
+        {
+          "level": "h3",
+          "text": "Fabricación y prototipos"
+        },
+        {
+          "level": "h3",
+          "text": "Emprendimientos y pequeños negocios"
+        },
+        {
+          "level": "h3",
+          "text": "Proyectos sociales y comunitarios"
+        },
+        {
+          "level": "h3",
+          "text": "Agricultura y sostenibilidad"
+        },
+        {
+          "level": "h2",
+          "text": "Un primer paso. Dos maneras de llegar."
+        },
+        {
+          "level": "h3",
+          "text": "Tengo una idea ."
+        },
+        {
+          "level": "h3",
+          "text": "Quiero aportar ."
+        },
+        {
+          "level": "h3",
+          "text": "Ayúdanos a construir el comienzo."
+        },
+        {
+          "level": "h2",
+          "text": "¿Qué necesito para empezar?"
+        },
+        {
+          "level": "h3",
+          "text": "01 ¿Qué es hago.click y cómo puedo empezar?"
+        },
+        {
+          "level": "h3",
+          "text": "02 ¿Qué puedo aportar y cómo participan los negocios?"
+        }
+      ],
+      "matches": [
+        {
+          "expected": "Lo que quieres hacer puede empezar con una conversación",
+          "present": false
+        },
+        {
+          "expected": "De un boceto a una primera prueba",
+          "present": false
+        },
+        {
+          "expected": "En un tema puedes enseñar. En otro, aprender",
+          "present": false
+        },
+        {
+          "expected": "Una necesidad concreta hace más fácil empezar",
+          "present": false
+        },
+        {
+          "expected": "Los acuerdos claros también son una forma de cuidar el trabajo",
+          "present": false
+        },
+        {
+          "expected": "Cada proyecto tiene una pregunta por resolver",
+          "present": false
+        },
+        {
+          "expected": "Saber preparar algo es un comienzo. Aprender a ofrecerlo es otro paso",
+          "present": false
+        },
+        {
+          "expected": "Quizá ya tienes algo útil para otro proyecto",
+          "present": false
+        },
+        {
+          "expected": "Cada proyecto tiene su propio terreno",
+          "present": false
+        },
+        {
+          "expected": "Puedes venir con una propuesta o con algo para compartir",
+          "present": false
+        },
+        {
+          "expected": "Estamos preparando el lugar donde todo esto podrá encontrarse",
+          "present": false
+        }
+      ],
+      "matched": 0,
+      "total_expected": 11,
+      "wordcount": 2202,
+      "hasPaceAndTerms": true
+    },
+    {
+      "route": "/tengo-una-idea",
+      "status": 200,
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Tengo una idea ."
+        },
+        {
+          "level": "h2",
+          "text": "De una inquietud a un primer paso."
+        },
+        {
+          "level": "h2",
+          "text": "De la idea a una propuesta clara."
+        },
+        {
+          "level": "h3",
+          "text": "Antes de pedir colaboración"
+        },
+        {
+          "level": "h3",
+          "text": "Mi idea"
+        },
+        {
+          "level": "h2",
+          "text": "¿Y ahora qué sigue?"
+        },
+        {
+          "level": "h3",
+          "text": "Quiero aportar"
+        },
+        {
+          "level": "h3",
+          "text": "Solicitar el piloto"
+        }
+      ],
+      "matches": [
+        {
+          "expected": "Tu idea no necesita estar terminada para empezar a explicarla",
+          "present": false
+        },
+        {
+          "expected": "Una propuesta clara empieza por tres respuestas",
+          "present": false
+        }
+      ],
+      "matched": 0,
+      "total_expected": 2,
+      "wordcount": 297,
+      "hasPaceAndTerms": true
+    },
+    {
+      "route": "/quiero-aportar",
+      "status": 200,
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Quiero aportar ."
+        },
+        {
+          "level": "h2",
+          "text": "Lo que sabes puede abrir un camino."
+        },
+        {
+          "level": "h2",
+          "text": "Hay muchas formas de hacer click."
+        },
+        {
+          "level": "h3",
+          "text": "Compartir conocimientos"
+        },
+        {
+          "level": "h3",
+          "text": "Ayudar con diseño o tecnología"
+        },
+        {
+          "level": "h3",
+          "text": "Prestar herramientas o equipos"
+        },
+        {
+          "level": "h3",
+          "text": "Aportar experiencia profesional"
+        },
+        {
+          "level": "h3",
+          "text": "Conectar personas y negocios"
+        },
+        {
+          "level": "h3",
+          "text": "Participar en el desarrollo de proyectos"
+        },
+        {
+          "level": "h2",
+          "text": "Negocios que impulsan negocios."
+        },
+        {
+          "level": "h3",
+          "text": "Visibilidad con propósito"
+        },
+        {
+          "level": "h3",
+          "text": "Reputación que se construye"
+        },
+        {
+          "level": "h3",
+          "text": "Relaciones que pueden crecer"
+        },
+        {
+          "level": "h2",
+          "text": "De la intención a un aporte claro."
+        },
+        {
+          "level": "h3",
+          "text": "Antes de ofrecer tu aporte"
+        },
+        {
+          "level": "h3",
+          "text": "Mi aporte"
+        },
+        {
+          "level": "h2",
+          "text": "¿Y ahora qué sigue?"
+        },
+        {
+          "level": "h3",
+          "text": "Tengo una idea"
+        },
+        {
+          "level": "h3",
+          "text": "Solicitar el piloto"
+        }
+      ],
+      "matches": [
+        {
+          "expected": "Eso que sabes hacer puede ser útil de otra manera",
+          "present": false
+        },
+        {
+          "expected": "Seis aportaciones que pueden comenzar con algo pequeño",
+          "present": false
+        },
+        {
+          "expected": "Tu negocio ha aprendido cosas que pueden servirle a otro",
+          "present": false
+        },
+        {
+          "expected": "Ofrecer algo concreto también permite poner límites",
+          "present": false
+        }
+      ],
+      "matched": 0,
+      "total_expected": 4,
+      "wordcount": 682,
+      "hasPaceAndTerms": true
+    },
+    {
+      "route": "/piloto",
+      "status": 200,
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Solicitar acceso al piloto ."
+        },
+        {
+          "level": "h2",
+          "text": "Una comunidad que está comenzando."
+        },
+        {
+          "level": "h2",
+          "text": "Cuéntanos de dónde vienes."
+        },
+        {
+          "level": "h2",
+          "text": "Explora la comunidad."
+        },
+        {
+          "level": "h3",
+          "text": "Tengo una idea"
+        },
+        {
+          "level": "h3",
+          "text": "Quiero aportar"
+        }
+      ],
+      "matches": [
+        {
+          "expected": "Queremos conocer cómo te gustaría participar",
+          "present": false
+        }
+      ],
+      "matched": 0,
+      "total_expected": 1,
+      "wordcount": 279,
+      "hasPaceAndTerms": false
+    },
+    {
+      "route": "/tema/tecnologia-y-software",
+      "status": 200,
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Tecnología y software ."
+        },
+        {
+          "level": "h2",
+          "text": "Encuentra dónde puede encajar lo tuyo."
+        },
+        {
+          "level": "h2",
+          "text": "Qué se necesita para avanzar."
+        },
+        {
+          "level": "h3",
+          "text": "Desarrollo y programación"
+        },
+        {
+          "level": "h3",
+          "text": "Validación técnica y arquitectura"
+        },
+        {
+          "level": "h3",
+          "text": "Infraestructura y despliegue"
+        },
+        {
+          "level": "h2",
+          "text": "Cómo puedes sumar aquí."
+        },
+        {
+          "level": "h3",
+          "text": "Programar una funcionalidad concreta"
+        },
+        {
+          "level": "h3",
+          "text": "Asesorar en arquitectura o seguridad"
+        },
+        {
+          "level": "h3",
+          "text": "Configurar despliegue y monitoreo"
+        },
+        {
+          "level": "h2",
+          "text": "Antes de empezar."
+        },
+        {
+          "level": "h2",
+          "text": "Sigue explorando."
+        },
+        {
+          "level": "h3",
+          "text": "Diseño y desarrollo de productos"
+        },
+        {
+          "level": "h3",
+          "text": "Emprendimientos y pequeños negocios"
+        },
+        {
+          "level": "h3",
+          "text": "Fabricación y prototipos"
+        }
+      ],
+      "matches": [
+        {
+          "expected": "Una herramienta digital empieza por resolver algo concreto",
+          "present": false
+        }
+      ],
+      "matched": 0,
+      "total_expected": 1,
+      "wordcount": 656,
+      "hasPaceAndTerms": true
+    },
+    {
+      "route": "/tema/diseno-y-productos",
+      "status": 200,
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Diseño y desarrollo de productos ."
+        },
+        {
+          "level": "h2",
+          "text": "Encuentra dónde puede encajar lo tuyo."
+        },
+        {
+          "level": "h2",
+          "text": "Qué se necesita para avanzar."
+        },
+        {
+          "level": "h3",
+          "text": "Investigación de usuarios"
+        },
+        {
+          "level": "h3",
+          "text": "Prototipado y diseño visual"
+        },
+        {
+          "level": "h3",
+          "text": "Validación y pruebas"
+        },
+        {
+          "level": "h2",
+          "text": "Cómo puedes sumar aquí."
+        },
+        {
+          "level": "h3",
+          "text": "Diseñar una interfaz o maqueta"
+        },
+        {
+          "level": "h3",
+          "text": "Realizar entrevistas a usuarios"
+        },
+        {
+          "level": "h3",
+          "text": "Probar y documentar problemas"
+        },
+        {
+          "level": "h2",
+          "text": "Antes de empezar."
+        },
+        {
+          "level": "h2",
+          "text": "Sigue explorando."
+        },
+        {
+          "level": "h3",
+          "text": "Tecnología y software"
+        },
+        {
+          "level": "h3",
+          "text": "Fabricación y prototipos"
+        },
+        {
+          "level": "h3",
+          "text": "Emprendimientos y pequeños negocios"
+        }
+      ],
+      "matches": [
+        {
+          "expected": "Antes de fabricar algo, vale la pena probar si funciona para quien lo necesita",
+          "present": false
+        }
+      ],
+      "matched": 0,
+      "total_expected": 1,
+      "wordcount": 649,
+      "hasPaceAndTerms": false
+    },
+    {
+      "route": "/tema/fabricacion-y-prototipos",
+      "status": 200,
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Fabricación y prototipos ."
+        },
+        {
+          "level": "h2",
+          "text": "Encuentra dónde puede encajar lo tuyo."
+        },
+        {
+          "level": "h2",
+          "text": "Qué se necesita para avanzar."
+        },
+        {
+          "level": "h3",
+          "text": "Modelado y planos técnicos"
+        },
+        {
+          "level": "h3",
+          "text": "Materiales y procesos"
+        },
+        {
+          "level": "h3",
+          "text": "Acceso a taller y equipos"
+        },
+        {
+          "level": "h2",
+          "text": "Cómo puedes sumar aquí."
+        },
+        {
+          "level": "h3",
+          "text": "Modelar una pieza en 3D"
+        },
+        {
+          "level": "h3",
+          "text": "Fabricar un primer prototipo"
+        },
+        {
+          "level": "h3",
+          "text": "Asesorar en materiales y costos"
+        },
+        {
+          "level": "h2",
+          "text": "Antes de empezar."
+        },
+        {
+          "level": "h2",
+          "text": "Sigue explorando."
+        },
+        {
+          "level": "h3",
+          "text": "Diseño y desarrollo de productos"
+        },
+        {
+          "level": "h3",
+          "text": "Agricultura y sostenibilidad"
+        },
+        {
+          "level": "h3",
+          "text": "Proyectos sociales y comunitarios"
+        }
+      ],
+      "matches": [
+        {
+          "expected": "Entre un dibujo y una pieza terminada hay decisiones que tomar",
+          "present": false
+        }
+      ],
+      "matched": 0,
+      "total_expected": 1,
+      "wordcount": 641,
+      "hasPaceAndTerms": true
+    },
+    {
+      "route": "/tema/emprendimientos-y-negocios",
+      "status": 200,
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Emprendimientos y pequeños negocios ."
+        },
+        {
+          "level": "h2",
+          "text": "Encuentra dónde puede encajar lo tuyo."
+        },
+        {
+          "level": "h2",
+          "text": "Qué se necesita para avanzar."
+        },
+        {
+          "level": "h3",
+          "text": "Modelo de negocio y propuesta de valor"
+        },
+        {
+          "level": "h3",
+          "text": "Finanzas y precios"
+        },
+        {
+          "level": "h3",
+          "text": "Marketing y primeros clientes"
+        },
+        {
+          "level": "h2",
+          "text": "Cómo puedes sumar aquí."
+        },
+        {
+          "level": "h3",
+          "text": "Acompañar la estrategia comercial"
+        },
+        {
+          "level": "h3",
+          "text": "Ordenar finanzas básicas"
+        },
+        {
+          "level": "h3",
+          "text": "Crear identidad y comunicación"
+        },
+        {
+          "level": "h2",
+          "text": "Antes de empezar."
+        },
+        {
+          "level": "h2",
+          "text": "Sigue explorando."
+        },
+        {
+          "level": "h3",
+          "text": "Tecnología y software"
+        },
+        {
+          "level": "h3",
+          "text": "Diseño y desarrollo de productos"
+        },
+        {
+          "level": "h3",
+          "text": "Proyectos sociales y comunitarios"
+        }
+      ],
+      "matches": [
+        {
+          "expected": "Hacer algo bien y convertirlo en un negocio son tareas diferentes",
+          "present": false
+        }
+      ],
+      "matched": 0,
+      "total_expected": 1,
+      "wordcount": 628,
+      "hasPaceAndTerms": true
+    },
+    {
+      "route": "/tema/proyectos-sociales",
+      "status": 200,
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Proyectos sociales y comunitarios ."
+        },
+        {
+          "level": "h2",
+          "text": "Encuentra dónde puede encajar lo tuyo."
+        },
+        {
+          "level": "h2",
+          "text": "Qué se necesita para avanzar."
+        },
+        {
+          "level": "h3",
+          "text": "Diagnóstico y definición del impacto"
+        },
+        {
+          "level": "h3",
+          "text": "Organización y voluntarios"
+        },
+        {
+          "level": "h3",
+          "text": "Comunicación y gestión de recursos"
+        },
+        {
+          "level": "h2",
+          "text": "Cómo puedes sumar aquí."
+        },
+        {
+          "level": "h3",
+          "text": "Acompañar el diseño del proyecto"
+        },
+        {
+          "level": "h3",
+          "text": "Diseñar materiales de comunicación"
+        },
+        {
+          "level": "h3",
+          "text": "Coordinar voluntarios o actividades"
+        },
+        {
+          "level": "h2",
+          "text": "Antes de empezar."
+        },
+        {
+          "level": "h2",
+          "text": "Sigue explorando."
+        },
+        {
+          "level": "h3",
+          "text": "Agricultura y sostenibilidad"
+        },
+        {
+          "level": "h3",
+          "text": "Emprendimientos y pequeños negocios"
+        },
+        {
+          "level": "h3",
+          "text": "Diseño y desarrollo de productos"
+        }
+      ],
+      "matches": [
+        {
+          "expected": "Una mejora para tu entorno empieza por escuchar a quienes lo conocen",
+          "present": false
+        }
+      ],
+      "matched": 0,
+      "total_expected": 1,
+      "wordcount": 632,
+      "hasPaceAndTerms": false
+    },
+    {
+      "route": "/tema/agricultura-y-sostenibilidad",
+      "status": 200,
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Agricultura y sostenibilidad ."
+        },
+        {
+          "level": "h2",
+          "text": "Encuentra dónde puede encajar lo tuyo."
+        },
+        {
+          "level": "h2",
+          "text": "Qué se necesita para avanzar."
+        },
+        {
+          "level": "h3",
+          "text": "Conocimiento técnico del cultivo"
+        },
+        {
+          "level": "h3",
+          "text": "Tecnología y herramientas apropiadas"
+        },
+        {
+          "level": "h3",
+          "text": "Gestión de recursos y residuos"
+        },
+        {
+          "level": "h2",
+          "text": "Cómo puedes sumar aquí."
+        },
+        {
+          "level": "h3",
+          "text": "Asesorar en técnicas de cultivo"
+        },
+        {
+          "level": "h3",
+          "text": "Diseñar un sistema de riego o energía"
+        },
+        {
+          "level": "h3",
+          "text": "Acompañar la gestión ambiental"
+        },
+        {
+          "level": "h2",
+          "text": "Antes de empezar."
+        },
+        {
+          "level": "h2",
+          "text": "Sigue explorando."
+        },
+        {
+          "level": "h3",
+          "text": "Proyectos sociales y comunitarios"
+        },
+        {
+          "level": "h3",
+          "text": "Fabricación y prototipos"
+        },
+        {
+          "level": "h3",
+          "text": "Emprendimientos y pequeños negocios"
+        }
+      ],
+      "matches": [
+        {
+          "expected": "Lo que funciona en el campo también depende de conocer el lugar",
+          "present": false
+        }
+      ],
+      "matched": 0,
+      "total_expected": 1,
+      "wordcount": 636,
+      "hasPaceAndTerms": false
+    }
+  ],
+  "expected_count": 24,
+  "matched_count": 0
+}
