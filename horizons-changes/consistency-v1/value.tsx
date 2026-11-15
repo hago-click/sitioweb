@@ -1,0 +1,10 @@
+import { ArrowUpRight, Pencil, Wrench, Store, Sparkles } from 'lucide-react';
+
+export function Value() {
+  return <section id="comunidad" className="value-section section-rail hc-value" aria-labelledby="value-heading">
+    <div className="section-label"><span>01 / LA COMUNIDAD</span><span>EL VALOR ESTÁ EN CONECTAR</span></div>
+    <div className="value-grid"><div className="value-copy"><h2 id="value-heading">No tienes que<br/>hacerlo <em>todo.</em><br/>Ni hacerlo <em>solo.</em></h2><p>Una idea puede necesitar distintas habilidades. Lo que alguien dibuja, otra persona puede ayudar a fabricar y un negocio puede orientar para presentar mejor.</p><p>hago.click busca reunir esas posibilidades alrededor de algo concreto: que un proyecto avance mediante acuerdos claros y aportaciones útiles.</p><a className="text-link" href="#participar">Encuentra tu forma de participar<ArrowUpRight size={18} aria-hidden="true"/></a></div>
+      <div className="hc-possibility-panel"><span className="hc-route-kicker">UNA POSIBILIDAD DE COLABORACIÓN</span><h3>Distintas habilidades.<br/><em>Una idea que toma forma.</em></h3><ol><li><span className="hc-possibility-icon"><Pencil size={23} aria-hidden="true"/></span><div><strong>Alguien imagina y dibuja</strong><p>Una ilustración que podría convertirse en un producto.</p></div></li><li><span className="hc-possibility-icon"><Wrench size={23} aria-hidden="true"/></span><div><strong>Otra persona sabe fabricar</strong><p>Materiales y herramientas para probar una primera pieza.</p></div></li><li><span className="hc-possibility-icon"><Store size={23} aria-hidden="true"/></span><div><strong>Un negocio comparte experiencia</strong><p>Orientación para calcular costos y presentar la propuesta.</p></div></li></ol><div className="hc-possibility-result"><Sparkles size={22} aria-hidden="true"/><p><strong>Un primer prototipo para validar.</strong><span>El avance se construye entre quienes participan.</span></p></div><p className="hc-possibility-note">Ejemplo ilustrativo, no un proyecto realizado ni una garantía de ventas.</p></div>
+    </div>
+  </section>;
+}
