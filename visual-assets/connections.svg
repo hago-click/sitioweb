@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Una idea encuentra conocimientos y recursos</title>
+  <desc id="desc">Ilustración conceptual de tres aportes conectados para desarrollar un proyecto. No representa actividad real de la comunidad.</desc>
+  <style>
+    .route{fill:none;stroke:#427b68;stroke-width:2;stroke-dasharray:5 9}
+    .pulse{fill:none;stroke:#93dfbd;stroke-width:4;stroke-linecap:round;stroke-dasharray:20 300;animation:flow 5s linear infinite}
+    .label{font:14px system-ui,sans-serif;fill:#1a2823}
+    @keyframes flow{to{stroke-dashoffset:-320}}
+    @media(prefers-reduced-motion:reduce){.pulse{animation:none;stroke-dasharray:none;opacity:.4}}
+  </style>
+  <rect x="1" y="1" width="718" height="358" rx="24" fill="#f5f5ee"/>
+  <g class="route"><path d="M145 100C250 100 240 180 330 180"/><path d="M145 260C250 260 240 180 330 180"/><path d="M390 180H565"/></g>
+  <g class="pulse"><path d="M145 100C250 100 240 180 330 180"/><path d="M145 260C250 260 240 180 330 180"/><path d="M390 180H565"/></g>
+  <g fill="#e0eadd" stroke="#427b68" stroke-width="1.5"><circle cx="110" cy="100" r="34"/><circle cx="110" cy="260" r="34"/></g>
+  <g fill="none" stroke="#244f40" stroke-width="2" stroke-linecap="round"><path d="M98 102V88l12 5 12-5v14l-12 5Zm12-9v14M97 250l10 10-10 10m14 0h12"/></g>
+  <circle cx="360" cy="180" r="39" fill="#192822"/>
+  <g stroke="#a4e9c9" stroke-width="3" stroke-linecap="round"><path d="M360 158v44M341 169l38 22M341 191l38-22"/></g>
+  <rect x="565" y="145" width="70" height="70" rx="18" fill="#c2efda" stroke="#427b68"/>
+  <path d="m582 180 12 12 23-25" fill="none" stroke="#244f40" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <g class="label" text-anchor="middle"><text x="110" y="155">Conocimientos</text><text x="110" y="315">Herramientas</text><text x="360" y="245">La idea hace click</text><text x="600" y="245">Primer paso</text></g>
+</svg>
