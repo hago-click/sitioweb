@@ -47,17 +47,18 @@ for route in EXISTING+NEW:
     descriptions=[a.get("content") for a in tags.collect("meta") if a.get("name")=="description"]
     check("meta description "+route,len(descriptions)==1 and len(descriptions[0] or "")>=70)
     if route in NEW:
-        # Aliases are optional SEO-compatible routes, not separately indexable copies.
+        home=pages.get("/",{}).get("body","")
+        check("footer/nav links to "+route, 'href="'+route+'"' in home or 'href="'+BASE+route+'"' in home)
+
+# Compatibility aliases must resolve to the real pages, not empty placeholders.
 for route in ALIASES:
     status, headers, body = get(route)
-    check("alias "+route+" returns canonical content", status==200, status)
+    check("alias "+route+" resolves to content",status==200,status)
     if status==200:
         tags = Tags(body)
         can=[a.get("href") for a in tags.collect("link") if a.get("rel")=="canonical"]
-        check("alias canonical "+route, bool(can and can[0] in (BASE+"/acerca-de",BASE+"/terminos",BASE+"/acuerdos",BASE+route)), can)
-home=pages.get("/",{}).get("body","")
-        check("footer/nav links to "+route,'href="'+route+'"' in home or 'href="'+BASE+route+'"' in home)
-
+        check("alias canonical "+route,bool(can and can[0] in (
+            BASE+"/acerca-de",BASE+"/terminos",BASE+"/acuerdos",BASE+route)),can)
 home=pages.get("/",{}).get("body","")
 scripts=re.findall(r'<script[^>]*type=["\']application/ld\+json["\'][^>]*>(.*?)</script>',home,re.S|re.I)
 schema=[]
