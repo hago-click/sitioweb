@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <!-- Original artwork for hago.click. Use inline symbols with a labelled parent SVG. -->
+  <symbol id="idea" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 31c0-6-7-7-7-16a14 14 0 0 1 28 0c0 9-7 10-7 16M17 32h14M18 37h12M21 42h6M24 3v5M12 7l4 4M36 7l-4 4"/><path d="m20 23 4-5 4 5M24 19v12"/></g></symbol>
+  <symbol id="knowledge" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M24 12c-6-5-13-5-20-3v29c7-2 14-2 20 3 6-5 13-5 20-3V9c-7-2-14-2-20 3v29M9 16c4-1 7 0 10 2M9 23c4-1 7 0 10 2M29 18c3-2 6-3 10-2M29 25c3-2 6-3 10-2"/></g></symbol>
+  <symbol id="tools" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M29 6a11 11 0 0 0-12 14L5 32a6 6 0 0 0 9 9l12-12A11 11 0 0 0 40 17l-7 7-9-9 7-7Z"/><circle cx="10" cy="36" r="1"/></g></symbol>
+  <symbol id="time" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="24" cy="24" r="19"/><path d="M24 12v13l9 5M24 5v3M43 24h-3M24 43v-3M5 24h3"/></g></symbol>
+  <symbol id="connection" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="10" cy="24" r="6"/><circle cx="38" cy="10" r="6"/><circle cx="38" cy="38" r="6"/><path d="m16 21 16-8M16 27l16 8"/></g></symbol>
+  <symbol id="build" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="m24 3 19 11v21L24 46 5 35V14Zm0 22L5 14m19 11 19-11M24 25v21M14 9l19 11v10"/></g></symbol>
+</svg>
