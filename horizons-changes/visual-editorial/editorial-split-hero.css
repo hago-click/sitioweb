@@ -1,0 +1,20 @@
+/* Desktop editorial split. Mobile keeps definition and CTA before the image. */
+@media (min-width:1100px) {
+ .hero { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); column-gap:6%; row-gap:0; min-height:0; padding-top:30px; }
+ .hero-top { grid-column:1/-1; padding-bottom:28px; }
+ .hero-title-wrap { grid-column:1; grid-row:2; margin-top:25px; align-self:end; }
+ .hero h1 { font-size:clamp(60px,5.6vw,86px); line-height:1; }
+ .hero-sub { font-size:clamp(23px,2vw,30px); line-height:1.25; margin-top:24px; max-width:420px; }
+ .hero-bottom { grid-column:1; grid-row:3; display:flex; flex-direction:column; align-items:stretch; gap:26px; margin:26px 0 38px; }
+ .hero-description { max-width:540px; }
+ .hero-description > p:first-child { font-size:15px; line-height:1.75; }
+ .hero-promise { font-size:17px; margin-top:14px; }
+ .hero-actions { grid-template-columns:1fr 1fr; gap:12px; max-width:540px; }
+ .hero-actions .button { padding:16px; gap:12px; font-size:13px; }
+ .hero-actions .action-note { grid-column:1/-1; text-align:left; }
+ .hero-feature { grid-column:2; grid-row:2/4; margin:0 0 38px; display:flex; flex-direction:column; justify-content:center; position:relative; }
+ .hero-feature img { width:100%; height:auto; aspect-ratio:5/4; object-fit:cover; object-position:50% 35%; border-radius:2px; }
+ .hero-feature figcaption { padding-top:16px; }
+ .hero-feature figcaption strong { font-size:14px; max-width:380px; line-height:1.5; }
+ .hero-foot { grid-column:1/-1; width:100%; margin-top:0; }
+}
