@@ -9,7 +9,8 @@ from html.parser import HTMLParser
 from urllib.parse import urljoin, urlparse
 
 BASE = (sys.argv[1] if len(sys.argv)>1 else "https://hago.click").rstrip("/")
-NEW = ["/acerca-de", "/contacto", "/acuerdos", "/privacidad", "/terminos"]\nALIASES = ["/about", "/terms", "/precios"]
+NEW = ["/acerca-de", "/contacto", "/acuerdos", "/privacidad", "/terminos"]
+ALIASES = ["/about", "/terms", "/precios"]
 EXISTING = ["/", "/piloto", "/quiero-aportar", "/tengo-una-idea",
  "/tema/tecnologia-y-software", "/tema/diseno-y-productos",
  "/tema/fabricacion-y-prototipos", "/tema/emprendimientos-y-negocios",
