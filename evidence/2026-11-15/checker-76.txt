@@ -1,0 +1,92 @@
+ike ChatGPT read your website?" [level=1]':
+    - text: Free AI Visibility Checker
+    - generic: ":"
+    - text: Can AI tools like ChatGPT read your website?
+  - generic: Paste your URL to see whether ChatGPT, Claude, Perplexity and other AI tools can access and understand your site. Get your AI readiness score and a fix for every issue.
+  - textbox "exampledomain.com": hago.click
+  - button "Scan site":
+    - generic: Scan site
+  - paragraph: Checks whether AI can access and read your site. It doesn’t track brand mentions in AI answers.
+  - paragraph: Results for
+  - paragraph: hago.click
+  - paragraph: Last scanned 11/15/26, 4:04:30 AM
+  - 'img "Almost agent-ready: 76"':
+    - generic: "76"
+  - generic: Grade B
+  - paragraph: Almost agent-ready
+  - list:
+    - 'img "Crawl permission: 100"':
+      - generic: "100"
+    - generic: Crawl permission
+    - generic: 20/20 pts
+    - 'img "Findability: 100"':
+      - generic: "100"
+    - generic: Findability
+    - generic: 16/16 pts
+    - 'img "Readability: 100"':
+      - generic: "100"
+    - generic: Readability
+    - generic: 18/18 pts
+    - 'img "Structured meaning: 71"':
+      - generic: "71"
+    - generic: Structured meaning
+    - generic: 10/14 pts
+    - 'img "Commercial legibility: 33"':
+      - generic: "33"
+    - generic: Commercial legibility
+    - generic: 4/12 pts
+    - 'img "Agent-native content: 80"':
+      - generic: "80"
+    - generic: Agent-native content
+    - generic: 8/10 pts
+    - 'img "Agent interaction: 0"':
+      - generic: "0"
+    - generic: Agent interaction
+    - generic: 0/10 pts
+  - button "Improve score":
+    - generic: Improve score
+  - heading "Crawl permission" [level=2]
+  - generic: 20/20
+  - button "Passed robots.txt is present and parseable 4/4 pts":
+    - generic "Passed":
+    - generic: robots.txt is present and parseable
+    - generic: 4/4 pts
+  - button "Passed AI crawlers are not blocked 7/7 pts":
+    - generic "Passed":
+    - generic: AI crawlers are not blocked
+    - generic: 7/7 pts
+  - button "Passed Not blocked by bot detection 6/6 pts":
+    - generic "Passed":
+    - generic: Not blocked by bot detection
+    - generic: 6/6 pts
+  - button "Passed Content Signals declared 3/3 pts":
+    - generic "Passed":
+    - generic: Content Signals declared
+    - generic: 3/3 pts
+  - heading "Findability" [level=2]
+  - generic: 16/16
+  - button "Passed Sitemap exists and lists URLs 5/5 pts":
+    - generic "Passed":
+    - generic: Sitemap exists and lists URLs
+    - generic: 5/5 pts
+  - button "Passed Sitemap declared in robots.txt 3/3 pts":
+    - generic "Passed":
+    - generic: Sitemap declared in robots.txt
+    - generic: 3/3 pts
+  - button "Passed Sitemap carries recent lastmod dates 3/3 pts":
+    - generic "Passed":
+    - generic: Sitemap carries recent lastmod dates
+    - generic: 3/3 pts
+  - button "Passed Missing pages return a real 404 3/3 pts":
+    - generic "Passed":
+    - generic: Missing pages return a real 404
+    - generic: 3/3 pts
+  - button "Passed Homepage resolves cleanly over HTTPS 2/2 pts":
+    - generic "Passed":
+    - generic: Homepage resolves cleanly over HTTPS
+    - generic: 2/2 pts
+  - heading "Readability" [level=2]
+  - generic: 18/18
+  - button "Passed Content is readable without JavaScript 8/8 pts":
+    - generic "Passed":
+    - generic:
