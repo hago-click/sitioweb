@@ -20,7 +20,7 @@ Este informe describe evidencia y límites; no asigna puntuaciones del jurado. L
 |---|---|---|
 |1. Mapa de preguntas|Diez preguntas y respuestas publicadas, reproducidas abajo|Mapa editorial; no se presenta como diez entrevistas reales a clientes|
 |2. Construir página|Landing y nueve rutas adicionales publicadas|Perfiles, directorio y mensajería no están implementados|
-|3. SEO, AEO y datos estructurados|Matriz de veinte criterios, metadatos y JSON-LD comprobados|Validación externa completa de schema pendiente|
+|3. SEO, AEO y datos estructurados|Matriz de veinte criterios, metadatos y JSON-LD comprobados|Portada validada en Schema.org: 0 errores y 0 advertencias; las demás rutas tienen comprobación local|
 |4. Prueba de respuestas|Prueba editorial usando solo HTML público: ocho completas y dos parciales|No equivale a ejecución independiente de Hostinger Agent; formulario no probado de extremo a extremo|
 |5. Auditoría y corrección|Checker inicial 61; último observado 76. Correcciones y pruebas registradas|76 corresponde al escaneo 11:00:36 Cancún, posterior a la galería y anterior al ajuste de metadatos secundarios; no mide menciones ni ranking|
 |6. Roadmap de 90 días|Plan con responsables, esfuerzo y KPI al final|Son tareas futuras, no implementaciones|
@@ -42,7 +42,7 @@ Este informe describe evidencia y límites; no asigna puntuaciones del jurado. L
 |AEO1|Respuesta directa arriba|Verificado|Primer párrafo define comunidad, destinatarios, aportaciones y acceso inicial sin costo. Texto en HTML inicial, antes de la foto en móvil.|
 |AEO2|Encabezados como preguntas|Verificado|H2 interrogativos con respuestas introductorias; se reforzaron Cómo funciona y FAQ. Cinco preguntas H3 agrupadas en FAQ.|
 |AEO3|Preguntas frecuentes|Verificado|Cinco acordeones nativos, inicialmente cerrados, todos abren y cierran con Enter. Todo el texto sigue en HTML inicial, sincronizado con FAQPage.|
-|AEO4|Datos estructurados|Verificado localmente; validación externa pendiente|WebSite, Organization y FAQPage parseables; cinco respuestas coinciden. URL, nombre y email coherentes. No se declara elegibilidad para resultados enriquecidos.|
+|AEO4|Datos estructurados|Portada validada externamente; otras rutas comprobadas localmente|Schema.org detectó WebSite, Organization y FAQPage: 0 errores y 0 advertencias en los tres. Cinco respuestas coinciden con HTML. URL, nombre y email coherentes. No se declara elegibilidad para resultados enriquecidos.|
 |AEO5|Contenido sin JavaScript|Verificado|GET contiene definición, ejemplos, pasos, cinco respuestas agrupadas y avisos de etapa inicial. El contenido principal no depende de ejecutar JS.|
 |AEO6|Acceso de bots IA|Parcial según rúbrica literal|GPTBot, ClaudeBot y Google-Extended siguen bloqueados para entrenamiento; búsqueda y Perplexity permitidos. llms.txt 200 text/plain. No se alteró la política para perseguir puntos.|
 |AEO7|Formato extraíble|Verificado|Párrafos cortos, listas, pasos y preguntas/respuestas semánticas; la ilustración interactiva también ofrece texto.|
@@ -136,4 +136,5 @@ Condiciones de piloto por país, calendario de funcionalidades, prácticas reale
 - Galería móvil público: formas-de-hacer-click-movil.jpg (viewport solicitado 390, contenido 375).
 - Auditoría: formas-publicado/audit.json e internal-links.json; metadatos finales en meta-publicado/audit.json.
 - Código antes/después: horizons-changes/formas-v1 y horizons-changes/meta-1106 en GitHub.
+- Validador oficial de Schema.org, portada: tres elementos, 0 errores y 0 advertencias; registro en schema-home.txt.
 - El paquete es evidencia documental y HTTP; no incluye copia integral de Horizons ni datos de usuarios.
